@@ -1,0 +1,28 @@
+nav > ul{
+    display: flex;
+    color: white;
+}
+ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+ul li:hover{
+    background-color: rgb(19, 22, 161);
+    
+}
+ul li a{
+    text-decoration: none;
+    color: gray;
+}
+ul > li > ul{
+    display: none;
+    margin-left: -10px;
+    padding: 0;
+    background-color: rgb(206, 23, 123);
+    
+}
+ul > li:hover > ul{
+    display: block;
+    position: absolute;
+    
+}

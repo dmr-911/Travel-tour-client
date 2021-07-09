@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home work</title>
+    <link rel="stylesheet" href="../styles/hw.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Media</a></li>
+                <li><a href="">Form</a></li>
+                <li><a href="">Table</a></li>
+                <li class="dropdown"><a href="" >Semantic</a>
+                    <ul>
+                        <li><a href="">Page-1</a></li>
+                        <li><a href="">Page-2</a></li>
+                        <li><a href="">Page-3</a></li>
+                        <li><a href="">Page-4</a></li>
+                        <li><a href="">Page-5</a></li>
+                    </ul>
+                </li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Practice Module 1</h1>
+    </header>
+
+    <main>
+        <section>
+            <h1>This is a use of Datalist and options tag</h1>
+            <p>Select something which you want:</p>
+            <form action="">
+                <input type="text" list="random">
+                <datalist id="random">
+                    <option value="Aam"></option>
+                    <option value="Jam"></option>
+                    <option value="Kathal"></option>
+                    <option value="Lichu"></option>
+                    <option value="Aam-sotto"></option>
+                </datalist>
+                <input type="submit" value="submit">
+            </form>
+        </section>
+        <section>
+            <h1>This is media section</h1>
+            <hr>
+            <audio src="../media/audio/Goat-Baby-Bah-A-www.fesliyanstudios.com.mp3" controls></audio>
+            <video src="../media/video/file_example_MP4_640_3MG.mp4" height="315" width="400" controls autoplay></video>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/24CEKsbIFao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <hr>
+        <section>
+            <table>
+                <h1>This is a color table</h1>
+                <thead>
+                    <td colspan="5" style="background-color: blue;"></td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2" rowspan="2" style="background-color: blueviolet;"></td>
+                        <td style="background-color: yellow;"></td>
+                        <td colspan="2" rowspan="2" style="background-color: rgb(17, 115, 207);"></td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: green"></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" style="background-color: red;"></td>
+                        <td colspan="3" style="background-color: orange;"></td>
+                        <td rowspan="3" style="background-color:violet"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td style="background-color: purple;"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="background-color: orangered;"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <form action="">
+
+                <h1>This is Form Page</h1>
+                <p>Name: <input type="text" placeholder="Your Name"></p>
+                <p>Email: <input type="text" placeholder="Email"></p>
+                <fieldset>
+                    <legend>choose your item</legend>
+                    <label for="male">
+                        <p><input type="radio" name="gender" id="male"> Male</p>
+                    </label><label for="female">
+                        <p><input type="radio" name="gender" id="female"> Female</p>
+                    </label><label for="others">
+                        <p><input type="radio" name="gender" id="others"> Others</p>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Add what you need</legend>
+                    <label for="taka">
+                    <p><input type="checkbox" name="money" id="taka"> Taka</p>
+                </label><label for="doller">
+                    <p><input type="checkbox" name="money" id="doller"> Doller</p>
+                </label><label for="euro">
+                    <p><input type="checkbox" name="money" id="euro"> Euro</p>
+                </label>
+                </fieldset>
+                <input type="submit"><input type="reset">   
+            </form>
+                
+        </section>
+    </main>
+    
+</body>
+</html>

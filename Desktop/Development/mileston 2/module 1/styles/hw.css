@@ -1,0 +1,36 @@
+nav > ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+ul li:hover{
+    background-color: indigo;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(231, 128, 128);
+}
+ul li a:hover{
+    color: white;
+}
+
+ul > li > ul{
+    display: none;
+    margin-left: -10px;
+}
+ul > li:hover > ul{
+    display: block;
+    position: absolute;
+}
+table{
+    border: 2px solid;
+    border-spacing: 0;
+}
+td,th{
+    height: 60px;
+    width: 80px;
+    text-align: center;
+    border: 1px solid black;
+}
