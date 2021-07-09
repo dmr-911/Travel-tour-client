@@ -1,0 +1,35 @@
+﻿2019-03-23 01:33:30.333 2880:00000001 (BlueStacksUninstaller). INFO: Copying files from InstallDir: C:\Program Files\BlueStacks\
+2019-03-23 01:33:30.505 2880:00000001 (BlueStacksUninstaller). INFO: Copying oem.cfg
+2019-03-23 01:33:30.526 2880:00000001 (BlueStacksUninstaller). INFO: All files copied, starting File exectuion from temp path
+2019-03-23 01:33:31.273 2880:00000001 (BlueStacksUninstaller). INFO: Main unistall process started, exiting current application.
+2019-03-23 01:33:32.774 9536:00000001 (BlueStacksUninstaller). INFO: Attempting to load Oem.cfg from path: C:\Users\Mizz\AppData\Local\Temp\Oem.cfg
+2019-03-23 01:33:32.977 9536:00000001 (BlueStacksUninstaller). INFO: Successfully populated English strings
+2019-03-23 01:34:18.082 9536:00000007 (BlueStacksUninstaller). INFO: Killing all BlueStacks processes
+2019-03-23 01:34:18.192 9536:00000007 (BlueStacksUninstaller). INFO: StopService BlueStacksDrv
+2019-03-23 01:34:18.192 9536:00000007 (BlueStacksUninstaller). INFO: OpenSCManager
+2019-03-23 01:34:18.239 9536:00000007 (BlueStacksUninstaller). INFO: StopService 477254480
+2019-03-23 01:34:18.285 9536:00000007 (BlueStacksUninstaller). INFO: RunCmd: starting cmd: schtasks.exe
+2019-03-23 01:34:18.285 9536:00000007 (BlueStacksUninstaller). INFO:   args: /Delete /TN BlueStacksHelper /F
+2019-03-23 01:34:18.605 9536:00000009 (BlueStacksUninstaller). INFO: 8792 ERR: 
+2019-03-23 01:34:18.605 9536:00000004 (BlueStacksUninstaller). INFO: 8792 OUT: SUCCESS: The scheduled task "BlueStacksHelper" was successfully deleted.
+2019-03-23 01:34:18.606 9536:00000007 (BlueStacksUninstaller). INFO: RunCmd for proc.ID = 8792 exited with exitCode: 0
+2019-03-23 01:34:18.606 9536:00000007 (BlueStacksUninstaller). INFO: RunCmd: starting cmd: schtasks.exe
+2019-03-23 01:34:18.606 9536:00000007 (BlueStacksUninstaller). INFO:   args: /Delete /TN BlueStacksHelperTask /F
+2019-03-23 01:34:18.715 9536:00000004 (BlueStacksUninstaller). INFO: 7540 ERR: ERROR: The system cannot find the file specified.
+2019-03-23 01:34:18.715 9536:00000004 (BlueStacksUninstaller). INFO: 7540 ERR: 
+2019-03-23 01:34:18.716 9536:00000004 (BlueStacksUninstaller). INFO: 7540 ERR: 
+2019-03-23 01:34:18.717 9536:00000007 (BlueStacksUninstaller). INFO: RunCmd for proc.ID = 7540 exited with exitCode: 1
+2019-03-23 01:34:18.717 9536:00000007 (BlueStacksUninstaller). ERROR: An error occured while deleting the task, exit code: 1
+2019-03-23 01:34:18.746 9536:00000007 (BlueStacksUninstaller). INFO: Deleting directory : C:\Program Files\BlueStacks\
+2019-03-23 01:34:18.794 9536:00000007 (BlueStacksUninstaller). INFO: Deleting directory : C:\ProgramData\BlueStacks
+2019-03-23 01:34:20.066 9536:00000007 (BlueStacksUninstaller). INFO: Deleting directory : C:\ProgramData\BlueStacksSetup
+2019-03-23 01:34:20.113 9536:00000007 (BlueStacksUninstaller). WARNING: Could not delete C:\ProgramData\BlueStacksSetup as it does not exist
+2019-03-23 01:34:20.175 9536:00000007 (BlueStacksUninstaller). INFO: UninstallService BlueStacksDrv
+2019-03-23 01:34:20.175 9536:00000007 (BlueStacksUninstaller). INFO: OpenSCManager
+2019-03-23 01:34:20.175 9536:00000007 (BlueStacksUninstaller). INFO: StopService 477255248
+2019-03-23 01:34:20.520 9536:00000007 (BlueStacksUninstaller). INFO: C:\Users\Mizz\Desktop\Teen Patti Gold.lnk is a shortcut for target HD-RunApp.exe
+2019-03-23 01:34:21.438 9536:00000007 (BlueStacksUninstaller). INFO: Deleting: C:\Users\Public\Desktop\BlueStacks.lnk
+2019-03-23 01:34:21.440 9536:00000007 (BlueStacksUninstaller). INFO: Deleting: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BlueStacks.lnk
+2019-03-23 01:34:21.440 9536:00000007 (BlueStacksUninstaller). INFO: Deleting: C:\Users\Public\Desktop\BlueStacks Multi-Instance Manager.lnk
+2019-03-23 01:34:21.441 9536:00000007 (BlueStacksUninstaller). INFO: Deleting: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BlueStacks Multi-Instance Manager.lnk
+2019-03-23 01:34:25.812 9536:00000001 (BlueStacksUninstaller). INFO: uninstallation clean value : 0

@@ -1,0 +1,1035 @@
+﻿2019-03-06 14:09:57.019 4068:00000001 (BlueStacksInstaller). INFO: Successfully populated English strings
+2019-03-06 14:09:59.129 4068:00000001 (BlueStacksInstaller). INFO: OnStartup
+2019-03-06 14:09:59.296 4068:00000001 (BlueStacksInstaller). INFO: Attempting to load Oem.cfg from path: C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\Oem.cfg
+2019-03-06 14:09:59.381 4068:00000001 (BlueStacksInstaller). INFO: Returning PFDir: C:\Program Files\BlueStacks
+2019-03-06 14:09:59.381 4068:00000001 (BlueStacksInstaller). INFO: Returning PDDir: C:\ProgramData\BlueStacks
+2019-03-06 14:09:59.396 4068:00000001 (BlueStacksInstaller). INFO: Generating install ID
+2019-03-06 14:09:59.396 4068:00000001 (BlueStacksInstaller). INFO: GeneratedID: cf190f7e-28b8-4ff0-b478-5c1f4d32424c
+2019-03-06 14:09:59.396 4068:00000001 (BlueStacksInstaller). INFO: Setting cloud host: https://cloud.bluestacks.com
+2019-03-06 14:10:03.789 4068:00000004 (BlueStacksInstaller). INFO: bst_config not found. Trying to fetch new file from cloud.
+2019-03-06 14:10:06.980 4068:00000006 (BlueStacksInstaller). INFO: --------- For debugging -------. FeatureManager was used before creating directory. This should not happen.
+2019-03-06 14:10:07.512 4068:00000003 (BlueStacksInstaller). INFO: The json response for get_installer_images  is {"installer_images": []}
+2019-03-06 14:10:12.171 4068:00000009 (BlueStacksInstaller). INFO: The json response for campaign  is 
+2019-03-06 14:10:12.171 4068:00000009 (BlueStacksInstaller). ERROR: Failed to parse response string for campaign name
+2019-03-06 14:10:12.218 4068:00000009 (BlueStacksInstaller). ERROR: System.NullReferenceException: Object reference not set to an instance of an object.
+   at BlueStacks.Installer.InstallerStats.<>c.<SendStartEventAfterShowingMainWindowAsync>b__9_0()
+2019-03-06 14:10:13.895 4068:00000001 (BlueStacksInstaller). INFO: InstallerProperties ---For DEV Tracking---
+2019-03-06 14:10:13.895 4068:00000001 (BlueStacksInstaller). INFO: CloudHost: https://cloud.bluestacks.com
+2019-03-06 14:10:13.895 4068:00000001 (BlueStacksInstaller). INFO: IsUpgrade: False
+2019-03-06 14:10:13.895 4068:00000001 (BlueStacksInstaller). INFO: CampaignMD5: 
+2019-03-06 14:10:13.895 4068:00000001 (BlueStacksInstaller). INFO: InstallId: cf190f7e-28b8-4ff0-b478-5c1f4d32424c
+2019-03-06 14:10:13.895 4068:00000001 (BlueStacksInstaller). INFO: IsRunningInSilentMode: False
+2019-03-06 14:10:13.895 4068:00000001 (BlueStacksInstaller). INFO: InstallerExtractedDir: C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\
+2019-03-06 14:10:13.895 4068:00000001 (BlueStacksInstaller). INFO: InstallerArchitecture: amd64
+2019-03-06 14:10:13.895 4068:00000001 (BlueStacksInstaller). INFO: PFDir: C:\Program Files\BlueStacks
+2019-03-06 14:10:13.895 4068:00000001 (BlueStacksInstaller). INFO: PDDir: C:\ProgramData\BlueStacks
+2019-03-06 14:10:13.895 4068:00000001 (BlueStacksInstaller). INFO: PFDirNew: C:\Program Files\BlueStacks
+2019-03-06 14:10:13.895 4068:00000001 (BlueStacksInstaller). INFO: PDDirNew: C:\ProgramData\BlueStacks
+2019-03-06 14:10:14.015 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: cmd
+2019-03-06 14:10:14.015 4068:00000003 (BlueStacksInstaller). INFO:   args: /c dir "C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\" /s
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Volume in drive C has no label.
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Volume Serial Number is 564C-7715
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 03/06/2019  02:09 PM    <DIR>          .
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 03/06/2019  02:09 PM    <DIR>          ..
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM                 0 64bit
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 09/11/2018  05:45 PM           333,312 7zr.exe
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          Assets
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:21 PM         1,365,512 BlueStacksInstaller.exe
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 12/25/2018  03:29 AM               310 BlueStacksInstaller.exe.config
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:21 PM           373,768 Bootstrapper.exe
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 01/29/2019  05:48 PM               309 Bootstrapper.exe.config
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM         7,893,903 CommonInstallUtils.zip
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM         1,042,952 HD-Common.dll
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 01/29/2019  05:48 PM           421,344 JSON.dll
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          Locales
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM               769 Oem.cfg
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM       440,332,981 PD.zip
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:23 PM        21,209,438 PF.zip
+2019-03-06 14:10:14.673 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          ProgramData
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:23 PM    <DIR>          ProgramFiles
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          x86
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 12 File(s)    472,974,598 bytes
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\Assets
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          .
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          ..
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  08:15 AM            27,145 installer_bg.png
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  08:15 AM            12,763 installer_bg_blurred.png
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 01/29/2019  05:48 PM             6,773 installer_logo.png
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 01/29/2019  05:48 PM            10,070 powered_by_bs.png
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 4 File(s)         56,751 bytes
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\Locales
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          .
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          ..
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM           101,686 i18n.ar-EG.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM            14,069 i18n.ar-IL.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM            85,054 i18n.de-DE.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM            77,395 i18n.en-US.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM            85,507 i18n.es-ES.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM            87,061 i18n.fr-FR.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM            82,551 i18n.it-IT.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM            93,067 i18n.ja-JP.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM            85,910 i18n.ko-KR.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM            79,890 i18n.pl-PL.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM            84,204 i18n.pt-BR.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM           112,877 i18n.ru-RU.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM           134,476 i18n.th-TH.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM            82,628 i18n.tr-TR.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM            89,223 i18n.vi-VN.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM            13,188 i18n.zh-CN.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:12 PM            73,899 i18n.zh-TW.txt
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 17 File(s)      1,382,685 bytes
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          .
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          ..
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          CefData
+2019-03-06 14:10:14.674 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          Client
+2019-03-06 14:10:14.716 4068:0000000E (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          Engine
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          Locales
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          Logs
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\CefData
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          locales
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\CefData\locales
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Client
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.716 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          anime-blue
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          anime-lineage
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          anime-pink
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          Assets
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Client\anime-blue
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          BTVExtensionPopup
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          EngScreens
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Client\anime-blue\BTVExtensionPopup
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Client\anime-blue\EngScreens
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Client\anime-lineage
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          BTVExtensionPopup
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          EngScreens
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Client\anime-lineage\BTVExtensionPopup
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Client\anime-lineage\EngScreens
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Client\anime-pink
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          BTVExtensionPopup
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          EngScreens
+2019-03-06 14:10:14.717 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Client\anime-pink\BTVExtensionPopup
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Client\anime-pink\EngScreens
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Client\Assets
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          EngScreens
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Client\Assets\EngScreens
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Engine
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          Android
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          Manager
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          UserData
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Engine\Android
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Engine\Manager
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Engine\UserData
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          .
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          ..
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          Gadget
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          InputMapper
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          SharedFolder
+2019-03-06 14:10:14.718 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.719 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Engine\UserData\Gadget
+2019-03-06 14:10:14.719 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.719 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.719 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.719 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Engine\UserData\InputMapper
+2019-03-06 14:10:14.719 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.719 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.719 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          UserFiles
+2019-03-06 14:10:14.719 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.720 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Engine\UserData\InputMapper\UserFiles
+2019-03-06 14:10:14.720 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          .
+2019-03-06 14:10:14.720 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          ..
+2019-03-06 14:10:14.720 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.720 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Engine\UserData\SharedFolder
+2019-03-06 14:10:14.720 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          .
+2019-03-06 14:10:14.720 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          ..
+2019-03-06 14:10:14.721 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.721 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Locales
+2019-03-06 14:10:14.721 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.721 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.721 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ProblemCategories
+2019-03-06 14:10:14.721 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.722 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Locales\ProblemCategories
+2019-03-06 14:10:14.722 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.722 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.722 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.722 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramData\Logs
+2019-03-06 14:10:14.722 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          .
+2019-03-06 14:10:14.722 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:22 PM    <DIR>          ..
+2019-03-06 14:10:14.722 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.723 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\ProgramFiles
+2019-03-06 14:10:14.723 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:23 PM    <DIR>          .
+2019-03-06 14:10:14.723 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:23 PM    <DIR>          ..
+2019-03-06 14:10:14.723 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.723 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Directory of C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\x86
+2019-03-06 14:10:14.723 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          .
+2019-03-06 14:10:14.723 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 02/12/2019  01:30 PM    <DIR>          ..
+2019-03-06 14:10:14.724 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 0 File(s)              0 bytes
+2019-03-06 14:10:14.724 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: Total Files Listed:
+2019-03-06 14:10:14.724 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 33 File(s)    474,414,034 bytes
+2019-03-06 14:10:14.724 4068:00000005 (BlueStacksInstaller). INFO: 9352 OUT: 92 Dir(s)  36,004,007,936 bytes free
+2019-03-06 14:10:14.738 4068:00000004 (BlueStacksInstaller). INFO: 9352 ERR: 
+2019-03-06 14:10:14.738 4068:00000003 (BlueStacksInstaller). INFO: RunCmd for proc.ID = 9352 exited with exitCode: 0
+2019-03-06 14:10:14.785 4068:00000003 (BlueStacksInstaller). INFO: UninstallService BstHdDrv
+2019-03-06 14:10:14.785 4068:00000003 (BlueStacksInstaller). INFO: OpenSCManager
+2019-03-06 14:10:14.785 4068:00000003 (BlueStacksInstaller). INFO: Service BstHdDrv is not installed or inaccessible.
+2019-03-06 14:10:14.785 4068:00000003 (BlueStacksInstaller). INFO: UninstallService BlueStacksDrv
+2019-03-06 14:10:14.785 4068:00000003 (BlueStacksInstaller). INFO: OpenSCManager
+2019-03-06 14:10:14.785 4068:00000003 (BlueStacksInstaller). INFO: Service BlueStacksDrv is not installed or inaccessible.
+2019-03-06 14:10:14.848 4068:00000003 (BlueStacksInstaller). INFO: Deleting directory : C:\Program Files\BlueStacks.new
+2019-03-06 14:10:14.863 4068:00000003 (BlueStacksInstaller). WARNING: Could not delete C:\Program Files\BlueStacks.new as it does not exist
+2019-03-06 14:10:14.863 4068:00000003 (BlueStacksInstaller). INFO: Deleting directory : C:\ProgramData\BlueStacks.new
+2019-03-06 14:10:14.863 4068:00000003 (BlueStacksInstaller). WARNING: Could not delete C:\ProgramData\BlueStacks.new as it does not exist
+2019-03-06 14:10:14.863 4068:00000003 (BlueStacksInstaller). INFO: Deleting directory : C:\Program Files\BlueStacks.old
+2019-03-06 14:10:14.863 4068:00000003 (BlueStacksInstaller). WARNING: Could not delete C:\Program Files\BlueStacks.old as it does not exist
+2019-03-06 14:10:14.863 4068:00000003 (BlueStacksInstaller). INFO: Deleting directory : C:\ProgramData\BlueStacks.old
+2019-03-06 14:10:14.863 4068:00000003 (BlueStacksInstaller). WARNING: Could not delete C:\ProgramData\BlueStacks.old as it does not exist
+2019-03-06 14:10:14.863 4068:00000003 (BlueStacksInstaller). INFO: Deleting directory : C:\Program Files\BlueStacks
+2019-03-06 14:10:14.863 4068:00000003 (BlueStacksInstaller). WARNING: Could not delete C:\Program Files\BlueStacks as it does not exist
+2019-03-06 14:10:14.863 4068:00000003 (BlueStacksInstaller). INFO: Deleting directory : C:\ProgramData\BlueStacks
+2019-03-06 14:10:14.863 4068:00000003 (BlueStacksInstaller). WARNING: Could not delete C:\ProgramData\BlueStacks as it does not exist
+2019-03-06 14:10:14.957 4068:00000003 (BlueStacksInstaller). WARNING: Some error while detecting symlink. Ex: Cannot open 64-bit registry: 0x2
+2019-03-06 14:10:14.957 4068:00000003 (BlueStacksInstaller). INFO: Extracting CommonInstallUtils
+2019-03-06 14:10:14.957 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\7zr.exe
+2019-03-06 14:10:14.957 4068:00000003 (BlueStacksInstaller). INFO:   args: x "C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\CommonInstallUtils.zip" -o"C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\" -aoa
+2019-03-06 14:10:16.158 4068:00000003 (BlueStacksInstaller). INFO: Starting PreInstall Checks
+2019-03-06 14:10:16.158 4068:00000003 (BlueStacksInstaller). INFO: Checking for supported OS
+2019-03-06 14:10:16.190 4068:00000003 (BlueStacksInstaller). INFO: Operating system details: Windows 10 64-bit
+2019-03-06 14:10:16.190 4068:00000003 (BlueStacksInstaller). INFO: OS Info: Name: 10, Service Pack: , Arch: 64-bit, Ver: 10.0
+2019-03-06 14:10:16.190 4068:00000003 (BlueStacksInstaller). INFO: Checking for physical memory
+2019-03-06 14:10:16.221 4068:00000003 (BlueStacksInstaller). INFO: Available: 3956 MB, Required: 1024 MB
+2019-03-06 14:10:16.252 4068:00000003 (BlueStacksInstaller). INFO: Checking for disk space.
+2019-03-06 14:10:16.268 4068:00000003 (BlueStacksInstaller). INFO: Space required: 5120 MB, space available: 34291 MB, DataDir: C:\ProgramData\BlueStacks
+2019-03-06 14:10:16.268 4068:00000003 (BlueStacksInstaller). INFO: Space required: 150 MB, space available: 34291 MB for InstallDir: C:\Program Files\BlueStacks
+2019-03-06 14:10:16.314 4068:00000003 (BlueStacksInstaller). INFO: Win32_VideoController query count: 
+2019-03-06 14:10:16.314 4068:00000003 (BlueStacksInstaller). INFO: Description (Name): AMD Radeon(TM) R5 M330
+2019-03-06 14:10:16.346 4068:00000003 (BlueStacksInstaller). INFO: DriverDate: 2016-06-28 00-00-00
+2019-03-06 14:10:16.346 4068:00000003 (BlueStacksInstaller). INFO: DriverVersion: 16.300.2101.0
+2019-03-06 14:10:16.346 4068:00000003 (BlueStacksInstaller). INFO: Description (Name): Intel(R) HD Graphics 520
+2019-03-06 14:10:16.346 4068:00000003 (BlueStacksInstaller). INFO: DriverDate: 2016-06-13 00-00-00
+2019-03-06 14:10:16.346 4068:00000003 (BlueStacksInstaller). INFO: DriverVersion: 20.19.15.4474
+2019-03-06 14:10:16.346 4068:00000003 (BlueStacksInstaller). INFO: Number of video controllers: 2
+2019-03-06 14:10:16.346 4068:00000003 (BlueStacksInstaller). INFO: In CheckSupportedGlRenderMode
+2019-03-06 14:10:16.346 4068:00000003 (BlueStacksInstaller). INFO: Checking for glRenderMode 1
+2019-03-06 14:10:16.346 4068:00000003 (BlueStacksInstaller). INFO: Will run C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\HD-GLCheck.exe with args 1
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: RegOpenKeyEx (Software\BlueStacks\Guests\Android\Config) returned error 2
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: RegOpenKeyEx (Software\BlueStacks\Guests\Android\Config) returned error 2
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: PgaEglInitialize: PreferredPixelFormat = 5
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_ARB_buffer_region
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_ARB_create_context
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_ARB_create_context_profile
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_ARB_create_context_robustness
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_ARB_extensions_string
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_ARB_framebuffer_sRGB
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_ARB_make_current_read
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_ARB_multisample
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_ARB_pbuffer
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_ARB_pixel_format
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_ARB_pixel_format_float
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_EXT_create_context_es2_profile
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_EXT_create_context_es_profile
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_EXT_depth_float
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_EXT_extensions_string
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_EXT_pixel_format_packed_float
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_EXT_swap_control
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_EXT_swap_control_tear
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_INTEL_cl_sharing
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_NV_DX_interop
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: WGL_EXTENSIONS = WGL_NV_DX_interop2
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: Create context version=3
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_VENDOR = Intel
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_RENDERER = Intel(R) HD Graphics 520
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_VERSION = 4.4.0 - Build 20.19.15.4474
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_SHADING_LANGUAGE_VERSION = 4.40 - Build 20.19.15.4474
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_3DFX_texture_compression_FXT1
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_AMD_depth_clamp_separate
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_AMD_vertex_shader_layer
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_AMD_vertex_shader_viewport_index
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_ES2_compatibility
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_ES3_compatibility
+2019-03-06 14:10:19.314 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_arrays_of_arrays
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_base_instance
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_blend_func_extended
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_buffer_storage
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_cl_event
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_clear_buffer_object
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_clear_texture
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_clip_control
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_color_buffer_float
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_compatibility
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_compressed_texture_pixel_storage
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_compute_shader
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_conservative_depth
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_copy_buffer
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_copy_image
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_debug_output
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_depth_buffer_float
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_depth_clamp
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_depth_texture
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_draw_buffers
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_draw_buffers_blend
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_draw_elements_base_vertex
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_draw_indirect
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_draw_instanced
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_enhanced_layouts
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_explicit_attrib_location
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_explicit_uniform_location
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_fragment_coord_conventions
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_fragment_layer_viewport
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_fragment_program
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_fragment_program_shadow
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_fragment_shader
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_fragment_shader_interlock
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_framebuffer_no_attachments
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_framebuffer_object
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_framebuffer_sRGB
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_geometry_shader4
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_get_program_binary
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_gpu_shader5
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_gpu_shader_fp64
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_half_float_pixel
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_half_float_vertex
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_indirect_parameters
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_instanced_arrays
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_internalformat_query
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_internalformat_query2
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_invalidate_subdata
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_map_buffer_alignment
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_map_buffer_range
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_multi_bind
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_multi_draw_indirect
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_multisample
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_multitexture
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_occlusion_query
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_occlusion_query2
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_pixel_buffer_object
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_point_parameters
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_point_sprite
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_program_interface_query
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_provoking_vertex
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_query_buffer_object
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_robust_buffer_access_behavior
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_robustness
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_sample_shading
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_sampler_objects
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_seamless_cube_map
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_seamless_cubemap_per_texture
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_separate_shader_objects
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_shader_atomic_counters
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_shader_bit_encoding
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_shader_image_load_store
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_shader_image_size
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_shader_objects
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_shader_precision
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_shader_stencil_export
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_shader_storage_buffer_object
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_shader_subroutine
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_shading_language_100
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_shading_language_420pack
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_shading_language_packing
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_shadow
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_stencil_texturing
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_sync
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_tessellation_shader
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_barrier
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_border_clamp
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_buffer_object_rgb32
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_buffer_range
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_compression
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_compression_bptc
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_compression_rgtc
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_cube_map
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_cube_map_array
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_env_add
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_env_combine
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_env_crossbar
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_env_dot3
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_float
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_gather
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_mirror_clamp_to_edge
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_mirrored_repeat
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_multisample
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_non_power_of_two
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_query_levels
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_query_lod
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_rectangle
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_rg
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_rgb10_a2ui
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_stencil8
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_storage
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_storage_multisample
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_swizzle
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_texture_view
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_timer_query
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_transform_feedback2
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_transform_feedback3
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_transform_feedback_instanced
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_transpose_matrix
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_uniform_buffer_object
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_vertex_array_bgra
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_vertex_array_object
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_vertex_attrib_64bit
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_vertex_attrib_binding
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_vertex_buffer_object
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_vertex_program
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_vertex_shader
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_vertex_type_10f_11f_11f_rev
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_vertex_type_2_10_10_10_rev
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_viewport_array
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ARB_window_pos
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_ATI_separate_stencil
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_abgr
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_bgra
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_blend_color
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_blend_equation_separate
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_blend_func_separate
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_blend_minmax
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_blend_subtract
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_clip_volume_hint
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_compiled_vertex_array
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_direct_state_access
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_draw_buffers2
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_draw_range_elements
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_fog_coord
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_framebuffer_blit
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_framebuffer_multisample
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_framebuffer_object
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_geometry_shader4
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_gpu_program_parameters
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_gpu_shader4
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_multi_draw_arrays
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_packed_depth_stencil
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_packed_float
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_packed_pixels
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_polygon_offset_clamp
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_rescale_normal
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_secondary_color
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_separate_specular_color
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_shader_framebuffer_fetch
+2019-03-06 14:10:19.346 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_shader_integer_mix
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: GL_EXTENSIONS = GL_EXT_shadow_fGLCheck Utility
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: Copyright 2012 BlueStack Systems, Inc.
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: All Rights Reserved
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: 
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: ============================================================
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: Dumping Display Devices
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: ============================================================
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: adapter:0 name:"\\.\DISPLAY1" string:"Intel(R) HD Graphics 520" flags:0x5(DISPLAY_DEVICE_ATTACHED_TO_DESKTOP,DISPLAY_DEVICE_PRIMARY_DEVICE,)
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: monitor:0,0 name:"\\.\DISPLAY1\Monitor0" string:"Generic PnP Monitor" flags:0x3(DISPLAY_DEVICE_ACTIVE,)
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: adapter:1 name:"\\.\DISPLAY2" string:"Intel(R) HD Graphics 520" flags:0()
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: adapter:2 name:"\\.\DISPLAY3" string:"Intel(R) HD Graphics 520" flags:0()
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: ============================================================
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: Initiating GL Check for PGA
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: ============================================================
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: Checking for Renderer OpenGL... 	 PASS
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: 
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: 
+2019-03-06 14:10:19.550 4068:00000004 (BlueStacksInstaller). INFO: 9856 OUT: *** This system is compatible, return code 0 (0x00000000) ***
+2019-03-06 14:10:19.566 4068:0000000E (BlueStacksInstaller). INFO: 9856 OUT: 
+2019-03-06 14:10:19.566 4068:00000003 (BlueStacksInstaller). INFO: 9856 EXIT: 0
+2019-03-06 14:10:19.644 4068:00000003 (BlueStacksInstaller). INFO: checking for marked for deletion flag in service 
+2019-03-06 14:10:19.644 4068:00000003 (BlueStacksInstaller). WARNING: Could not check for service marked for deletion. should be safe to ignore in most cases.
+2019-03-06 14:10:19.644 4068:00000003 (BlueStacksInstaller). INFO: Creating BlueStacks registry
+2019-03-06 14:10:20.382 4068:00000003 (BlueStacksInstaller). INFO: Got resp: {"p_code": "pxln", "code": "410", "success": true, "ca_selector": "se_45005"}
+2019-03-06 14:10:20.722 4068:00000003 (BlueStacksInstaller). INFO: Got resp: {"country": "BD", "latlong": "23.900371,90.327225"}
+2019-03-06 14:10:20.722 4068:00000003 (BlueStacksInstaller). INFO: Setting BootParams for all instances: ROOT=/dev/sda1 SRC=/android DATA=/dev/sdb1 PREBUNDLEDAPPSFS=/dev/sdc1 HOST=WIN bstandroidport=9999 GlMode=1 VERSION=4.50.5.1003 OEM=bgp LANG=en-US country=BD caCode=410 pcode=pxln OEMFEATURES=2243585 DNS2=8.8.8.8 GUID=6bd3d916-6a88-1ea3-970c-055520e0d88f EngineState=plus caSelector=se_45005 DPI=240 GlTransport=3 appsfeatures=16592382 installId=cf190f7e-28b8-4ff0-b478-5c1f4d32424c
+2019-03-06 14:10:20.894 4068:00000003 (BlueStacksInstaller). INFO: Getting Android VM Memory
+2019-03-06 14:10:20.894 4068:00000003 (BlueStacksInstaller). INFO: Total RAM = 3956 MB
+2019-03-06 14:10:20.894 4068:00000003 (BlueStacksInstaller). INFO: Using RAM: 900MB
+2019-03-06 14:10:20.909 4068:00000003 (BlueStacksInstaller). INFO: the android Port is 9999 adbPort is 5555 tcp6666 port is 6666 tcp7777 port is 7777 udpPort is 12000 hostSensorPort is 3866 hostGlPort is 3901
+2019-03-06 14:10:21.145 4068:00000003 (BlueStacksInstaller). INFO: Resolution values: guestWidth: 1280 guestHeight: 720 widowWidth: 1168 windowHeight: 657
+2019-03-06 14:10:21.520 4068:00000003 (BlueStacksInstaller). INFO: Sending system info stats
+2019-03-06 14:10:21.520 4068:00000003 (BlueStacksInstaller). INFO: Checking for supported GL Modes
+2019-03-06 14:10:21.520 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\HD-GLCheck.exe
+2019-03-06 14:10:21.520 4068:00000003 (BlueStacksInstaller). INFO:   args: 1 1
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: PgaReadRegConfigDWORD(Software\BlueStacks\Guests\Android\Config\GlPort) = 3901
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: PgaEglInitialize: PreferredPixelFormat = 5
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_ARB_buffer_region
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_ARB_create_context
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_ARB_create_context_profile
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_ARB_create_context_robustness
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_ARB_extensions_string
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_ARB_framebuffer_sRGB
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_ARB_make_current_read
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_ARB_multisample
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_ARB_pbuffer
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_ARB_pixel_format
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_ARB_pixel_format_float
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_EXT_create_context_es2_profile
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_EXT_create_context_es_profile
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_EXT_depth_float
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_EXT_extensions_string
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_EXT_pixel_format_packed_float
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_EXT_swap_control
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_EXT_swap_control_tear
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_INTEL_cl_sharing
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_NV_DX_interop
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: WGL_EXTENSIONS = WGL_NV_DX_interop2
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: Create context version=3
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_VENDOR = Intel
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_RENDERER = Intel(R) HD Graphics 520
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_VERSION = 4.4.0 - Build 20.19.15.4474
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_SHADING_LANGUAGE_VERSION = 4.40 - Build 20.19.15.4474
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_3DFX_texture_compression_FXT1
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_AMD_depth_clamp_separate
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_AMD_vertex_shader_layer
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_AMD_vertex_shader_viewport_index
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_ES2_compatibility
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_ES3_compatibility
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_arrays_of_arrays
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_base_instance
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_blend_func_extended
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_buffer_storage
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_cl_event
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_clear_buffer_object
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_clear_texture
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_clip_control
+2019-03-06 14:10:21.833 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_color_buffer_float
+2019-03-06 14:10:21.834 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_compatibility
+2019-03-06 14:10:21.834 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_compressed_texture_pixel_storage
+2019-03-06 14:10:21.834 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_compute_shader
+2019-03-06 14:10:21.834 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_conservative_depth
+2019-03-06 14:10:21.834 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_copy_buffer
+2019-03-06 14:10:21.834 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_copy_image
+2019-03-06 14:10:21.834 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_debug_output
+2019-03-06 14:10:21.834 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_depth_buffer_float
+2019-03-06 14:10:21.834 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_depth_clamp
+2019-03-06 14:10:21.834 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_depth_texture
+2019-03-06 14:10:21.834 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_draw_buffers
+2019-03-06 14:10:21.834 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_draw_buffers_blend
+2019-03-06 14:10:21.834 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_draw_elements_base_vertex
+2019-03-06 14:10:21.834 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_draw_indirect
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_draw_instanced
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_enhanced_layouts
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_explicit_attrib_location
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_explicit_uniform_location
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_fragment_coord_conventions
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_fragment_layer_viewport
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_fragment_program
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_fragment_program_shadow
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_fragment_shader
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_fragment_shader_interlock
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_framebuffer_no_attachments
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_framebuffer_object
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_framebuffer_sRGB
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_geometry_shader4
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_get_program_binary
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_gpu_shader5
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_gpu_shader_fp64
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_half_float_pixel
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_half_float_vertex
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_indirect_parameters
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_instanced_arrays
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_internalformat_query
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_internalformat_query2
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_invalidate_subdata
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_map_buffer_alignment
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_map_buffer_range
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_multi_bind
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_multi_draw_indirect
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_multisample
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_multitexture
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_occlusion_query
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_occlusion_query2
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_pixel_buffer_object
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_point_parameters
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_point_sprite
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_program_interface_query
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_provoking_vertex
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_query_buffer_object
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_robust_buffer_access_behavior
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_robustness
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_sample_shading
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_sampler_objects
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_seamless_cube_map
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_seamless_cubemap_per_texture
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_separate_shader_objects
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_shader_atomic_counters
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_shader_bit_encoding
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_shader_image_load_store
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_shader_image_size
+2019-03-06 14:10:21.864 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_shader_objects
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_shader_precision
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_shader_stencil_export
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_shader_storage_buffer_object
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_shader_subroutine
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_shading_language_100
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_shading_language_420pack
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_shading_language_packing
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_shadow
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_stencil_texturing
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_sync
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_tessellation_shader
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_barrier
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_border_clamp
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_buffer_object_rgb32
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_buffer_range
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_compression
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_compression_bptc
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_compression_rgtc
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_cube_map
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_cube_map_array
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_env_add
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_env_combine
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_env_crossbar
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_env_dot3
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_float
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_gather
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_mirror_clamp_to_edge
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_mirrored_repeat
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_multisample
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_non_power_of_two
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_query_levels
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_query_lod
+2019-03-06 14:10:21.866 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_rectangle
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_rg
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_rgb10_a2ui
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_stencil8
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_storage
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_storage_multisample
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_swizzle
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_texture_view
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_timer_query
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_transform_feedback2
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_transform_feedback3
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_transform_feedback_instanced
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_transpose_matrix
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_uniform_buffer_object
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_vertex_array_bgra
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_vertex_array_object
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_vertex_attrib_64bit
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_vertex_attrib_binding
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_vertex_buffer_object
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_vertex_program
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_vertex_shader
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_vertex_type_10f_11f_11f_rev
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_vertex_type_2_10_10_10_rev
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_viewport_array
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ARB_window_pos
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_ATI_separate_stencil
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_abgr
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_bgra
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_blend_color
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_blend_equation_separate
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_blend_func_separate
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_blend_minmax
+2019-03-06 14:10:21.867 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_blend_subtract
+2019-03-06 14:10:21.868 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_clip_volume_hint
+2019-03-06 14:10:21.868 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_compiled_vertex_array
+2019-03-06 14:10:21.868 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_direct_state_access
+2019-03-06 14:10:21.868 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_draw_buffers2
+2019-03-06 14:10:21.868 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_draw_range_elements
+2019-03-06 14:10:21.868 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_fog_coord
+2019-03-06 14:10:21.868 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_framebuffer_blit
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_framebuffer_multisample
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_framebuffer_object
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_geometry_shader4
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_gpu_program_parameters
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_gpu_shader4
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_multi_draw_arrays
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_packed_depth_stencil
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_packed_float
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_packed_pixels
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_polygon_offset_clamp
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_rescale_normal
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_secondary_color
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_separate_specular_color
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_shader_framebuffer_fetch
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_shader_integer_mix
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_shadow_funcs
+2019-03-06 14:10:21.869 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_stencil_two_side
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: GL_EXTENSIONS = GL_EXT_sGLCheck Utility
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: Copyright 2012 BlueStack Systems, Inc.
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: All Rights Reserved
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: ============================================================
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: Dumping Display Devices
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: ============================================================
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: adapter:0 name:"\\.\DISPLAY1" string:"Intel(R) HD Graphics 520" flags:0x5(DISPLAY_DEVICE_ATTACHED_TO_DESKTOP,DISPLAY_DEVICE_PRIMARY_DEVICE,)
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: monitor:0,0 name:"\\.\DISPLAY1\Monitor0" string:"Generic PnP Monitor" flags:0x3(DISPLAY_DEVICE_ACTIVE,)
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: adapter:1 name:"\\.\DISPLAY2" string:"Intel(R) HD Graphics 520" flags:0()
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: adapter:2 name:"\\.\DISPLAY3" string:"Intel(R) HD Graphics 520" flags:0()
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: ============================================================
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: Initiating GL Check for PGA
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: ============================================================
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: Checking for Renderer OpenGL... 	 PASS
+2019-03-06 14:10:21.891 4068:00000005 (BlueStacksInstaller). INFO: 5260 OUT: *** This system is compatible, return code 0 (0x00000000) ***
+2019-03-06 14:10:21.900 4068:0000000E (BlueStacksInstaller). INFO: 5260 ERR: 
+2019-03-06 14:10:21.905 4068:00000003 (BlueStacksInstaller). INFO: RunCmd for proc.ID = 5260 exited with exitCode: 0
+2019-03-06 14:10:21.905 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\HD-GLCheck.exe
+2019-03-06 14:10:21.905 4068:00000003 (BlueStacksInstaller). INFO:   args: 4 1
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: GLCheck Utility
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: Copyright 2012 BlueStack Systems, Inc.
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: All Rights Reserved
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: ============================================================
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: Dumping Display Devices
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: ============================================================
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: adapter:0 name:"\\.\DISPLAY1" string:"Intel(R) HD Graphics 520" flags:0x5(DISPLAY_DEVICE_ATTACHED_TO_DESKTOP,DISPLAY_DEVICE_PRIMARY_DEVICE,)
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: monitor:0,0 name:"\\.\DISPLAY1\Monitor0" string:"Generic PnP Monitor" flags:0x3(DISPLAY_DEVICE_ACTIVE,)
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: adapter:1 name:"\\.\DISPLAY2" string:"Intel(R) HD Graphics 520" flags:0()
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: adapter:2 name:"\\.\DISPLAY3" string:"Intel(R) HD Graphics 520" flags:0()
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: ============================================================
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: Initiating GL Check for PGA
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: ============================================================
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: Checking for Renderer Directx Auto... 	 PASS
+2019-03-06 14:10:22.564 4068:00000004 (BlueStacksInstaller). INFO: 13656 OUT: *** This system is compatible, return code 0 (0x00000000) ***
+2019-03-06 14:10:22.571 4068:0000000D (BlueStacksInstaller). INFO: 13656 ERR: 
+2019-03-06 14:10:22.575 4068:00000003 (BlueStacksInstaller). INFO: RunCmd for proc.ID = 13656 exited with exitCode: 0
+2019-03-06 14:10:22.575 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\HD-GLCheck.exe
+2019-03-06 14:10:22.575 4068:00000003 (BlueStacksInstaller). INFO:   args: 1 2
+2019-03-06 14:10:23.452 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXTENSIONS (HOST):
+2019-03-06 14:10:23.452 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_blend_minmax
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_blend_subtract
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_blend_color
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_abgr
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture3D
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_clip_volume_hint
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_compiled_vertex_array
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_SGIS_texture_edge_clamp
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_SGIS_generate_mipmap
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_draw_range_elements
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_SGIS_texture_lod
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_rescale_normal
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_packed_pixels
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture_edge_clamp
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_separate_specular_color
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_multitexture
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_map_buffer_alignment
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_conservative_depth
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture_env_combine
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_bgra
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_blend_func_separate
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_secondary_color
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_fog_coord
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture_env_add
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_cube_map
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_transpose_matrix
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_internalformat_query
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_internalformat_query2
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_env_add
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_IBM_texture_mirrored_repeat
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_mirrored_repeat
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_multi_draw_arrays
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_SUN_multi_draw_arrays
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_NV_blend_square
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_compression
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_3DFX_texture_compression_FXT1
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture_filter_anisotropic
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_border_clamp
+2019-03-06 14:10:23.453 4068:00000004 (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_point_parameters
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_env_combine
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_env_dot3
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_env_crossbar
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture_compression_s3tc
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_shadow
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_window_pos
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_shadow_funcs
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_stencil_wrap
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_vertex_program
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture_rectangle
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_fragment_program
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_stencil_two_side
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ATI_separate_stencil
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_vertex_buffer_object
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture_lod_bias
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_occlusion_query
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_fragment_shader
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_shader_objects
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_shading_language_100
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_non_power_of_two
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_vertex_shader
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_NV_texgen_reflection
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_point_sprite
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_fragment_program_shadow
+2019-03-06 14:10:23.453 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_blend_equation_separate
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_depth_texture
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_rectangle
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_draw_buffers
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_color_buffer_float
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_half_float_pixel
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_float
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_pixel_buffer_object
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_barrier
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_framebuffer_object
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_draw_instanced
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_half_float_vertex
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_occlusion_query2
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_draw_buffers2
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_WIN_swap_hint
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture_sRGB
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_multisample
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_packed_float
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture_shared_exponent
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_rg
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_compression_rgtc
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_NV_conditional_render
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_swizzle
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture_swizzle
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_gather
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_sync
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_cl_event
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_framebuffer_sRGB
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_packed_depth_stencil
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_depth_buffer_float
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_transform_feedback
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_transform_feedback2
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_draw_indirect
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_framebuffer_blit
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_framebuffer_multisample
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_framebuffer_object
+2019-03-06 14:10:23.454 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_framebuffer_no_attachments
+2019-03-06 14:10:23.455 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture_array
+2019-03-06 14:10:23.455 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture_integer
+2019-03-06 14:10:23.455 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_map_buffer_range
+2019-03-06 14:10:23.455 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_buffer_range
+2019-03-06 14:10:23.455 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture_snorm
+2019-03-06 14:10:23.455 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_blend_func_extended
+2019-03-06 14:10:23.455 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_INTEL_performance_query
+2019-03-06 14:10:23.455 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_copy_buffer
+2019-03-06 14:10:23.455 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_sampler_objects
+2019-03-06 14:10:23.455 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_NV_primitive_restart
+2019-03-06 14:10:23.455 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_seamless_cube_map
+2019-03-06 14:10:23.455 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_seamless_cubemap_per_texture
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_uniform_buffer_object
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_depth_clamp
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_vertex_array_bgra
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_shader_bit_encoding
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_draw_buffers_blend
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_geometry_shader4
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_geometry_shader4
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_query_lod
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_explicit_attrib_location
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_draw_elements_base_vertex
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_shader_integer_mix
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_instanced_arrays
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_base_instance
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_fragment_coord_conventions
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_gpu_program_parameters
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_buffer_object_rgb32
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_rgb10_a2ui
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_multisample
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_vertex_type_2_10_10_10_rev
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_vertex_type_10f_11f_11f_rev
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_timer_query
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_timer_query
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_tessellation_shader
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_vertex_array_object
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_provoking_vertex
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_sample_shading
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_cube_map_array
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_gpu_shader4
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_gpu_shader5
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_gpu_shader_fp64
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_INTEL_fragment_shader_ordering
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_fragment_shader_interlock
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_clip_control
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_shader_framebuffer_fetch
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_shader_subroutine
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_transform_feedback3
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_get_program_binary
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_separate_shader_objects
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_shader_precision
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_vertex_attrib_64bit
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_viewport_array
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_transform_feedback_instanced
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_compressed_texture_pixel_storage
+2019-03-06 14:10:23.456 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_shader_atomic_counters
+2019-03-06 14:10:23.457 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_shading_language_packing
+2019-03-06 14:10:23.457 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_shader_image_load_store
+2019-03-06 14:10:23.457 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_shading_language_420pack
+2019-03-06 14:10:23.457 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_texture_storage
+2019-03-06 14:10:23.457 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_EXT_texture_storage
+2019-03-06 14:10:23.457 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_compute_shader
+2019-03-06 14:10:23.527 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: GL_ARB_verteGLCheck Utility
+2019-03-06 14:10:23.527 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: Copyright 2012 BlueStack Systems, Inc.
+2019-03-06 14:10:23.527 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: All Rights Reserved
+2019-03-06 14:10:23.527 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: ============================================================
+2019-03-06 14:10:23.527 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: Dumping Display Devices
+2019-03-06 14:10:23.527 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: ============================================================
+2019-03-06 14:10:23.527 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: adapter:0 name:"\\.\DISPLAY1" string:"Intel(R) HD Graphics 520" flags:0x5(DISPLAY_DEVICE_ATTACHED_TO_DESKTOP,DISPLAY_DEVICE_PRIMARY_DEVICE,)
+2019-03-06 14:10:23.527 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: monitor:0,0 name:"\\.\DISPLAY1\Monitor0" string:"Generic PnP Monitor" flags:0x3(DISPLAY_DEVICE_ACTIVE,)
+2019-03-06 14:10:23.527 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: adapter:1 name:"\\.\DISPLAY2" string:"Intel(R) HD Graphics 520" flags:0()
+2019-03-06 14:10:23.527 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: adapter:2 name:"\\.\DISPLAY3" string:"Intel(R) HD Graphics 520" flags:0()
+2019-03-06 14:10:23.527 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: ============================================================
+2019-03-06 14:10:23.542 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: Initiating GL Check for AGA
+2019-03-06 14:10:23.542 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: ============================================================
+2019-03-06 14:10:23.542 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: Checking for Renderer OpenGL... 	 PASS
+2019-03-06 14:10:23.542 4068:0000000D (BlueStacksInstaller). INFO: 1684 OUT: *** This system is compatible, return code 0 (0x00000000) ***
+2019-03-06 14:10:23.542 4068:0000000E (BlueStacksInstaller). INFO: 1684 ERR: 
+2019-03-06 14:10:23.542 4068:00000003 (BlueStacksInstaller). INFO: RunCmd for proc.ID = 1684 exited with exitCode: 0
+2019-03-06 14:10:23.542 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\HD-GLCheck.exe
+2019-03-06 14:10:23.542 4068:00000003 (BlueStacksInstaller). INFO:   args: 4 2
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: GLCheck Utility
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: Copyright 2012 BlueStack Systems, Inc.
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: All Rights Reserved
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: ============================================================
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: Dumping Display Devices
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: ============================================================
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: adapter:0 name:"\\.\DISPLAY1" string:"Intel(R) HD Graphics 520" flags:0x5(DISPLAY_DEVICE_ATTACHED_TO_DESKTOP,DISPLAY_DEVICE_PRIMARY_DEVICE,)
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: monitor:0,0 name:"\\.\DISPLAY1\Monitor0" string:"Generic PnP Monitor" flags:0x3(DISPLAY_DEVICE_ACTIVE,)
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: adapter:1 name:"\\.\DISPLAY2" string:"Intel(R) HD Graphics 520" flags:0()
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: adapter:2 name:"\\.\DISPLAY3" string:"Intel(R) HD Graphics 520" flags:0()
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: ============================================================
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: Initiating GL Check for AGA
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: ============================================================
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: Checking for Renderer Directx Auto... 	 PASS
+2019-03-06 14:10:23.693 4068:00000005 (BlueStacksInstaller). INFO: 9396 OUT: *** This system is compatible, return code 0 (0x00000000) ***
+2019-03-06 14:10:23.693 4068:0000000E (BlueStacksInstaller). INFO: 9396 ERR: 
+2019-03-06 14:10:23.708 4068:00000003 (BlueStacksInstaller). INFO: RunCmd for proc.ID = 9396 exited with exitCode: 0
+2019-03-06 14:10:23.708 4068:00000003 (BlueStacksInstaller). INFO: Supported GL Modes: 1 1,4 1,1 2,4 2
+2019-03-06 14:10:23.708 4068:00000003 (BlueStacksInstaller). INFO: Resolution values: guestWidth: 1280 guestHeight: 720 widowWidth: 1168 windowHeight: 657
+2019-03-06 14:10:23.724 4068:00000003 (BlueStacksInstaller). INFO: Extracting ProgramFiles to C:\Program Files\BlueStacks
+2019-03-06 14:10:23.724 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\7zr.exe
+2019-03-06 14:10:23.724 4068:00000003 (BlueStacksInstaller). INFO:   args: x "C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\PF.zip" -o"C:\Program Files\BlueStacks" -aoa
+2019-03-06 14:10:23.787 4068:00000006 (BlueStacksInstaller). INFO: the length of numOfProcessor string is 1
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: Got Device Profile Info:
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: ProcessorId BFEBFBFF000406E3
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: Processor Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: NumberOfProcessors 4
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: GPU AMD Radeon(TM) R5 M330
+Intel(R) HD Graphics 520
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: GPUDriver 16.300.2101.0
+20.19.15.4474
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: OS Microsoft Windows 10 Pro
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: OSVersion 10.0
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: RAM 3956
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: BlueStacksVersion 4.50.5.1003
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: GlMode 1
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: GlRenderMode 1
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: OEMInfo  
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: ScreenResolution 1366x768
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: BlueStacksResolution 1168x657
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: DotNetVersion 4.7.03056 Full
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: OSVERSIONTYPE 64 bit
+2019-03-06 14:10:23.941 4068:00000006 (BlueStacksInstaller). INFO: Will run C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\\HD-GLCheck.exe with args 2
+2019-03-06 14:10:24.525 4068:00000006 (BlueStacksInstaller). INFO: 4760 EXIT: 0
+2019-03-06 14:10:24.525 4068:00000006 (BlueStacksInstaller). INFO: Will run C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\\HD-GLCheck.exe with args 3
+2019-03-06 14:10:24.866 4068:00000006 (BlueStacksInstaller). INFO: 988 EXIT: 0
+2019-03-06 14:10:24.866 4068:00000006 (BlueStacksInstaller). INFO: Will run C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\\HD-GLCheck.exe with args 1
+2019-03-06 14:10:25.148 4068:00000006 (BlueStacksInstaller). INFO: 10484 EXIT: 0
+2019-03-06 14:10:25.211 4068:00000006 (BlueStacksInstaller). INFO: Two Camera present on Device: False
+2019-03-06 14:10:25.211 4068:00000006 (BlueStacksInstaller). INFO: TwoCamera Value: 0
+2019-03-06 14:10:25.211 4068:00000006 (BlueStacksInstaller). INFO: Sending System Info Stats
+2019-03-06 14:10:25.596 4068:00000006 (BlueStacksInstaller). INFO: Got System Info  response: 
+2019-03-06 14:10:25.835 4068:0000000F (BlueStacksInstaller). INFO: Checking if generated id present in %temp%
+2019-03-06 14:10:25.835 4068:0000000F (BlueStacksInstaller). INFO: %TEMP% = C:\Users\Mizz\AppData\Local\Temp
+2019-03-06 14:10:25.898 4068:0000000F (BlueStacksInstaller). INFO: sending installer guid stats
+2019-03-06 14:10:26.867 4068:00000003 (BlueStacksInstaller). INFO: Extracting ProgramData to C:\ProgramData\BlueStacks
+2019-03-06 14:10:26.882 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\7zr.exe
+2019-03-06 14:10:26.882 4068:00000003 (BlueStacksInstaller). INFO:   args: x "C:\Users\Mizz\AppData\Local\Temp\7zSA9A.tmp\PD.zip" -o"C:\ProgramData\BlueStacks" -aoa
+2019-03-06 14:10:28.066 4068:0000000F (BlueStacksInstaller). INFO: machine_guid in stats..9be4b72d-9ebe-4a0d-b26b-ee7ef50c8b6b
+2019-03-06 14:10:28.066 4068:0000000F (BlueStacksInstaller). INFO: sending installer guid debug stats to url : https://cloud.bluestacks.com/bs3/stats/guid_debug_stats
+2019-03-06 14:10:28.384 4068:0000000F (BlueStacksInstaller). INFO: Response for url https://cloud.bluestacks.com/bs3/stats/guid_debug_stats: 
+2019-03-06 14:11:22.159 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: netsh.exe
+2019-03-06 14:11:22.159 4068:00000003 (BlueStacksInstaller). INFO:   args: advfirewall firewall delete rule name="BlueStacks Service"
+2019-03-06 14:11:24.753 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: netsh.exe
+2019-03-06 14:11:24.753 4068:00000003 (BlueStacksInstaller). INFO:   args: advfirewall firewall add rule name="BlueStacks Service" dir=in action=allow program="C:\Program Files\BlueStacks\HD-Player.exe" enable=yes
+2019-03-06 14:11:25.192 4068:00000003 (BlueStacksInstaller). INFO: InstallService start
+2019-03-06 14:11:25.358 4068:00000003 (BlueStacksInstaller). INFO: Installing driver
+2019-03-06 14:11:25.411 4068:00000003 (BlueStacksInstaller). INFO: Registering driver with params: file path : C:\Program Files\BlueStacks\BstkDrv.sys, DriverName BlueStacksDrv, DisplayName: BlueStacks Hypervisor
+2019-03-06 14:11:25.411 4068:00000003 (BlueStacksInstaller). INFO: Checking if service BlueStacksDrv exists on user's machine
+2019-03-06 14:11:25.411 4068:00000003 (BlueStacksInstaller). INFO: StopService BlueStacksDrv
+2019-03-06 14:11:25.411 4068:00000003 (BlueStacksInstaller). INFO: OpenSCManager
+2019-03-06 14:11:25.411 4068:00000003 (BlueStacksInstaller). INFO: UninstallService BlueStacksDrv
+2019-03-06 14:11:25.411 4068:00000003 (BlueStacksInstaller). INFO: OpenSCManager
+2019-03-06 14:11:25.411 4068:00000003 (BlueStacksInstaller). INFO: Service BlueStacksDrv is not installed or inaccessible.
+2019-03-06 14:11:25.411 4068:00000003 (BlueStacksInstaller). INFO: InstallKernelDriver BlueStacksDrv
+2019-03-06 14:11:25.411 4068:00000003 (BlueStacksInstaller). INFO: OpenSCManager
+2019-03-06 14:11:25.458 4068:00000003 (BlueStacksInstaller). INFO: Successfully created service = BlueStacksDrv...setting DACL now
+2019-03-06 14:11:25.490 4068:00000003 (BlueStacksInstaller). INFO: SetServicePermissions BlueStacksDrv
+2019-03-06 14:11:25.536 4068:00000003 (BlueStacksInstaller). INFO: Successfully set DACL
+2019-03-06 14:11:25.536 4068:00000003 (BlueStacksInstaller). INFO: Successfully Installed Driver
+2019-03-06 14:11:25.536 4068:00000003 (BlueStacksInstaller). INFO: In SetupVmConfig
+2019-03-06 14:11:25.583 4068:00000003 (BlueStacksInstaller). INFO: InstallVmConfig()
+2019-03-06 14:11:25.646 4068:00000003 (BlueStacksInstaller). INFO: Getting Android VM Memory
+2019-03-06 14:11:25.646 4068:00000003 (BlueStacksInstaller). INFO: Total RAM = 3956 MB
+2019-03-06 14:11:25.646 4068:00000003 (BlueStacksInstaller). INFO: Using RAM: 900MB
+2019-03-06 14:11:25.677 4068:00000003 (BlueStacksInstaller). INFO: In SetupBstkGlobalConfig
+2019-03-06 14:11:25.677 4068:00000003 (BlueStacksInstaller). INFO: InstallVirtualBoxConfig()
+2019-03-06 14:11:25.677 4068:00000003 (BlueStacksInstaller). INFO: Reserving ports 2860 - 2910
+2019-03-06 14:11:25.677 4068:00000003 (BlueStacksInstaller). INFO: ---------------------------------------------------------------
+2019-03-06 14:11:26.152 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: netsh.exe
+2019-03-06 14:11:26.152 4068:00000003 (BlueStacksInstaller). INFO:   args: http add urlacl url=http://*:2861/ User=\"Everyone"
+2019-03-06 14:11:26.318 4068:00000005 (BlueStacksInstaller). INFO: 14428 OUT: URL reservation successfully added
+2019-03-06 14:11:26.327 4068:00000004 (BlueStacksInstaller). INFO: 14428 ERR: 
+2019-03-06 14:11:26.328 4068:00000003 (BlueStacksInstaller). INFO: RunCmd for proc.ID = 14428 exited with exitCode: 0
+2019-03-06 14:11:27.677 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: netsh.exe
+2019-03-06 14:11:27.677 4068:00000003 (BlueStacksInstaller). INFO:   args: http add urlacl url=http://*:2871/ User=\"Everyone"
+2019-03-06 14:11:27.787 4068:00000004 (BlueStacksInstaller). INFO: 3488 OUT: URL reservation successfully added
+2019-03-06 14:11:27.787 4068:0000000A (BlueStacksInstaller). INFO: 3488 ERR: 
+2019-03-06 14:11:27.787 4068:00000003 (BlueStacksInstaller). INFO: RunCmd for proc.ID = 3488 exited with exitCode: 0
+2019-03-06 14:11:29.055 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: netsh.exe
+2019-03-06 14:11:29.055 4068:00000003 (BlueStacksInstaller). INFO:   args: http add urlacl url=http://*:2881/ User=\"Everyone"
+2019-03-06 14:11:29.199 4068:00000006 (BlueStacksInstaller). INFO: 1600 OUT: URL reservation successfully added
+2019-03-06 14:11:29.208 4068:0000000A (BlueStacksInstaller). INFO: 1600 ERR: 
+2019-03-06 14:11:29.211 4068:00000003 (BlueStacksInstaller). INFO: RunCmd for proc.ID = 1600 exited with exitCode: 0
+2019-03-06 14:11:30.320 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: netsh.exe
+2019-03-06 14:11:30.320 4068:00000003 (BlueStacksInstaller). INFO:   args: http add urlacl url=http://*:2891/ User=\"Everyone"
+2019-03-06 14:11:30.424 4068:0000000E (BlueStacksInstaller). INFO: 10512 OUT: URL reservation successfully added
+2019-03-06 14:11:30.431 4068:00000006 (BlueStacksInstaller). INFO: 10512 ERR: 
+2019-03-06 14:11:30.431 4068:00000003 (BlueStacksInstaller). INFO: RunCmd for proc.ID = 10512 exited with exitCode: 0
+2019-03-06 14:11:31.698 4068:00000003 (BlueStacksInstaller). INFO: RunCmd: starting cmd: netsh.exe
+2019-03-06 14:11:31.698 4068:00000003 (BlueStacksInstaller). INFO:   args: http add urlacl url=http://*:2901/ User=\"Everyone"
+2019-03-06 14:11:31.823 4068:0000000E (BlueStacksInstaller). INFO: 12228 OUT: URL reservation successfully added
+2019-03-06 14:11:31.823 4068:0000000D (BlueStacksInstaller). INFO: 12228 ERR: 
+2019-03-06 14:11:31.823 4068:00000003 (BlueStacksInstaller). INFO: RunCmd for proc.ID = 12228 exited with exitCode: 0
+2019-03-06 14:11:32.901 4068:00000003 (BlueStacksInstaller). INFO: ---------------------------------------------------------------
+2019-03-06 14:11:32.901 4068:00000003 (BlueStacksInstaller). INFO: Starting registration of COM process with: HD-UnRegRegCom.exe
+2019-03-06 14:11:42.737 4068:00000003 (BlueStacksInstaller). INFO: ExitCode: 0
+2019-03-06 14:11:42.761 4068:00000003 (BlueStacksInstaller). INFO: Deleting legacy shortcuts
+2019-03-06 14:11:42.765 4068:00000003 (BlueStacksInstaller). INFO: CreateInstallApkScheme start
+2019-03-06 14:11:42.814 4068:00000003 (BlueStacksInstaller). INFO: CreateInstallApkScheme end
+2019-03-06 14:11:45.347 4068:00000003 (BlueStacksInstaller). INFO: CreatePartnerRegistryEntry start
+2019-03-06 14:11:45.347 4068:00000003 (BlueStacksInstaller). INFO: bst_config not found. Trying to fetch new file from cloud.
+2019-03-06 14:11:47.407 4068:00000001 (BlueStacksInstaller). INFO: Installation completed. Copying logfile to logdir.
+2019-03-06 14:12:03.218 4068:00000001 (BlueStacksInstaller). INFO: Finish button clicked, launching BlueStacks client.

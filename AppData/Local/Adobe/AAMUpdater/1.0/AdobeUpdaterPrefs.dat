@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Preferences>
+<OSVersion>6.2.9200</OSVersion>
+<IsFirstRun>0</IsFirstRun>
+<WebFeedEtag></WebFeedEtag>
+<WebFeedSize>0</WebFeedSize>
+<WebFeedSeqNo>0</WebFeedSeqNo>
+<LastDateCheck>2021-03-03T15:36:07</LastDateCheck>
+<SilentNotificationLogFile>C:\Users\Mizz\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log</SilentNotificationLogFile>
+<LogLevel>2</LogLevel>
+<CSUVersion>9.0</CSUVersion>
+<StartupLogFile>C:\Users\Mizz\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log</StartupLogFile>
+<NotificationLogFile>C:\Users\Mizz\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log</NotificationLogFile>
+<ChannelsInstalled>
+<MapPrefEntry MapPrefKey="AdobeApplicationManager-1.0">1</MapPrefEntry>
+</ChannelsInstalled>
+</Preferences>

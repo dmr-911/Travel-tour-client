@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        table{
+            border: 2px solid;
+        }
+        td,th{
+            height: 40px;
+            width: 60px;
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="audio-video.html">Media</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>This is Table Page</h1>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="6">1</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" colspan="2">2</td>
+                <td rowspan="2" colspan="2">3</td>
+                <td colspan="2">4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td colspan="6">7</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

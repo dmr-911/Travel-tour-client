@@ -1,0 +1,80 @@
+﻿2020-07-31 03:53:50.309 9760:00000001 (BlueStacksUninstaller) INFO: Copying C:\Program Files\BlueStacks\Assets to C:\Users\Mizz\AppData\Local\Temp\Assets
+2020-07-31 03:53:51.651 9760:00000001 (BlueStacksUninstaller) INFO: Copying files from C:\Program Files\BlueStacks\Assets to C:\Users\Mizz\AppData\Local\Temp\Assets
+2020-07-31 03:53:51.668 9760:00000001 (BlueStacksUninstaller) INFO: Copying files from C:\Program Files\BlueStacks\ to C:\Users\Mizz\AppData\Local\Temp\
+2020-07-31 03:53:51.736 9760:00000001 (BlueStacksUninstaller) INFO: Copying oem.cfg
+2020-07-31 03:53:51.738 9760:00000001 (BlueStacksUninstaller) INFO: Copying theme file
+2020-07-31 03:53:51.901 9760:00000001 (BlueStacksUninstaller) INFO: All files copied, starting File exectuion from temp path
+2020-07-31 03:53:52.912 9760:00000001 (BlueStacksUninstaller) INFO: Main unistall process started, exiting current application.
+2020-07-31 03:53:56.418 8864:00000001 (BlueStacksUninstaller) INFO: Attempting to load Oem.cfg from path: C:\Users\Mizz\AppData\Local\Temp\Oem.cfg
+2020-07-31 03:54:03.009 8864:00000001 (BlueStacksUninstaller) INFO: Successfully populated en-US strings
+2020-07-31 03:54:04.091 8864:00000001 (BlueStacksUninstaller) INFO: Loading cfg from : C:\ProgramData\BlueStacks\Client\bst_config
+2020-07-31 03:54:04.354 8864:00000001 (BlueStacksUninstaller) INFO: Loading Oem Settings from C:\ProgramData\BlueStacks\Client\bst_config
+2020-07-31 03:54:25.917 8864:00000007 (BlueStacksUninstaller) INFO: Killing all BlueStacks processes
+2020-07-31 03:54:26.202 8864:00000007 (BlueStacksUninstaller) INFO: StopService BlueStacksDrv
+2020-07-31 03:54:26.203 8864:00000007 (BlueStacksUninstaller) INFO: OpenSCManager
+2020-07-31 03:54:26.204 8864:00000007 (BlueStacksUninstaller) INFO: StopService 585965232
+2020-07-31 03:54:27.809 8864:00000007 (BlueStacksUninstaller) INFO: RunCmd: starting cmd: schtasks.exe
+2020-07-31 03:54:27.809 8864:00000007 (BlueStacksUninstaller) INFO:   args: /Delete /TN BlueStacksHelper /F
+2020-07-31 03:54:28.425 8864:00000009 (BlueStacksUninstaller) INFO: 5176 ERR: 
+2020-07-31 03:54:28.425 8864:00000004 (BlueStacksUninstaller) INFO: 5176 OUT: SUCCESS: The scheduled task "BlueStacksHelper" was successfully deleted.
+2020-07-31 03:54:28.425 8864:00000007 (BlueStacksUninstaller) INFO: RunCmd for proc.ID = 5176 exited with exitCode: 0
+2020-07-31 03:54:28.425 8864:00000007 (BlueStacksUninstaller) INFO: RunCmd: starting cmd: schtasks.exe
+2020-07-31 03:54:28.425 8864:00000007 (BlueStacksUninstaller) INFO:   args: /Delete /TN BlueStacksHelperTask /F
+2020-07-31 03:54:28.465 8864:00000004 (BlueStacksUninstaller) INFO: 7892 ERR: ERROR: The system cannot find the file specified.
+2020-07-31 03:54:28.465 8864:00000004 (BlueStacksUninstaller) INFO: 7892 ERR: 
+2020-07-31 03:54:28.466 8864:00000004 (BlueStacksUninstaller) INFO: 7892 ERR: 
+2020-07-31 03:54:28.467 8864:00000007 (BlueStacksUninstaller) INFO: RunCmd for proc.ID = 7892 exited with exitCode: 1
+2020-07-31 03:54:28.467 8864:00000007 (BlueStacksUninstaller) ERROR: An error occured while deleting the task, exit code: 1
+2020-07-31 03:54:28.504 8864:00000007 (BlueStacksUninstaller) INFO: Deleting directory : C:\Program Files\BlueStacks\
+2020-07-31 03:54:28.901 8864:00000007 (BlueStacksUninstaller) INFO: Deleting directory : C:\ProgramData\BlueStacks
+2020-07-31 03:54:39.863 8864:00000007 (BlueStacksUninstaller) WARNING: Got exception when deleting C:\ProgramData\BlueStacks, err:System.UnauthorizedAccessException: Access to the path 'BlueStacksHelper.exe' is denied.
+   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at BlueStacks.Common.CommonInstallUtils.DeleteDirectory(String targetDir)
+2020-07-31 03:54:39.863 8864:00000007 (BlueStacksUninstaller) INFO: ------------- FOR DEV TRACKING --------------
+2020-07-31 03:54:39.863 8864:00000007 (BlueStacksUninstaller) INFO: Deleting directory : C:\ProgramData\BlueStacks\Client
+2020-07-31 03:54:39.864 8864:00000007 (BlueStacksUninstaller) WARNING: Got exception when deleting C:\ProgramData\BlueStacks\Client, err:System.UnauthorizedAccessException: Access to the path 'BlueStacksHelper.exe' is denied.
+   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at BlueStacks.Common.CommonInstallUtils.DeleteDirectory(String targetDir)
+2020-07-31 03:54:39.864 8864:00000007 (BlueStacksUninstaller) INFO: ------------- FOR DEV TRACKING --------------
+2020-07-31 03:54:39.864 8864:00000007 (BlueStacksUninstaller) INFO: Deleting directory : C:\ProgramData\BlueStacks\Client\Helper
+2020-07-31 03:54:39.864 8864:00000007 (BlueStacksUninstaller) WARNING: Got exception when deleting C:\ProgramData\BlueStacks\Client\Helper, err:System.UnauthorizedAccessException: Access to the path 'BlueStacksHelper.exe' is denied.
+   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at BlueStacks.Common.CommonInstallUtils.DeleteDirectory(String targetDir)
+2020-07-31 03:54:39.864 8864:00000007 (BlueStacksUninstaller) INFO: ------------- FOR DEV TRACKING --------------
+2020-07-31 03:54:39.913 8864:00000007 (BlueStacksUninstaller) WARNING: An error occured while deleting datadir
+2020-07-31 03:54:39.937 8864:00000007 (BlueStacksUninstaller) WARNING: System.UnauthorizedAccessException: Access to the path 'C:\ProgramData\BlueStacks\Client\Helper\BlueStacksHelper.exe' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at BlueStacks.Common.CommonInstallUtils.DeleteDirectory(String targetDir)
+   at BlueStacks.Common.CommonInstallUtils.DeleteDirectory(String targetDir)
+   at BlueStacks.Common.CommonInstallUtils.DeleteDirectory(String targetDir)
+   at BlueStacks.Uninstaller.MainWindow.UninstallerBackgroundWorker_DoWork(Object sender, DoWorkEventArgs e)
+2020-07-31 03:54:39.962 8864:00000007 (BlueStacksUninstaller) INFO: Deleting directory : C:\Users\Mizz\AppData\Local\BlueStacksSetup
+2020-07-31 03:57:08.346 8864:00000007 (BlueStacksUninstaller) INFO: Deleting: C:\Users\Public\Desktop\BlueStacks.lnk
+2020-07-31 03:57:08.346 8864:00000007 (BlueStacksUninstaller) INFO: Deleting: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BlueStacks.lnk
+2020-07-31 03:57:08.347 8864:00000007 (BlueStacksUninstaller) INFO: Deleting: C:\Users\Public\Desktop\BlueStacks Multi-Instance Manager.lnk
+2020-07-31 03:57:08.347 8864:00000007 (BlueStacksUninstaller) INFO: Deleting: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BlueStacks Multi-Instance Manager.lnk
+2020-07-31 03:57:08.394 8864:00000007 (BlueStacksUninstaller) INFO: UninstallService BlueStacksDrv
+2020-07-31 03:57:08.395 8864:00000007 (BlueStacksUninstaller) INFO: OpenSCManager
+2020-07-31 03:57:08.395 8864:00000007 (BlueStacksUninstaller) INFO: StopService 587059216
+2020-07-31 03:57:08.449 8864:00000007 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme start
+2020-07-31 03:57:08.492 8864:00000007 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme end
+2020-07-31 03:57:08.492 8864:00000007 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme start
+2020-07-31 03:57:08.551 8864:00000007 (BlueStacksUninstaller) INFO: DeleteInstallApkScheme end
+2020-07-31 03:57:10.359 8864:00000001 (BlueStacksUninstaller) INFO: uninstallation clean value : 2
+2020-07-31 03:57:10.989 8864:00000001 (BlueStacksUninstaller) ERROR: Could not load file or assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The system cannot find the file specified.
+2020-07-31 03:57:10.989 8864:00000001 (BlueStacksUninstaller) ERROR: Failed to upload uninstall failed logs.
+2020-07-31 03:57:10.989 8864:00000001 (BlueStacksUninstaller) ERROR: System.IO.FileNotFoundException: Could not load file or assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The system cannot find the file specified.
+File name: 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'
+   at BlueStacks.Common.BstHttpClient.HTTPGaeFileUploaderInternal(String url, Dictionary`2 data, Dictionary`2 headers, String filepath, String contentType, Boolean gzip, String vmName)
+   at BlueStacks.Common.BstHttpClient.HTTPGaeFileUploader(String url, Dictionary`2 data, Dictionary`2 headers, String filepath, String contentType, Boolean gzip, String vmName)
+   at BlueStacks.Uninstaller.UninstallerStats.ReportUninstallFailedStats(String uninstallEvent)
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+

@@ -1,0 +1,23 @@
+﻿{
+   "AfcDatabaseSettings" : {
+      "DatabaseInstanceId" : 0,
+      "LastUpdated" : "2018-05-31T01:43:40.738"
+   },
+   "AfsActivityTypes" : [],
+   "AfsChannelUri" : "",
+   "AfsEnvironment" : "",
+   "AfsSubscriptionId" : "",
+   "AfsSubscriptionUpdateTime" : "0000-00-00T00:00:00.000",
+   "CNCNotificationChannelId" : "1;805345138736141866",
+   "CNCNotificationUri" : "https://sg2p.notify.windows.com/?token=AwYAAAB7A7GB494Dp3pBXjHUYrY40r8ehdQQ3OvKUuclD9UGE%2buApusPfKMqwx%2fO2uvq%2fkWdmAAl6slb8go2LYuTxVsViDOTmb1y%2bAIaczQrSNaRKXczuhy9N75JiK70NUpuBe6fQ4FNWY5EBobHlBXkeJGr",
+   "CNCNotificationUriExpirationTime" : "2019-03-03T17:52:53.000Z",
+   "CNCNotificationUriLastSynced" : "2019-02-02T08:56:58.062Z",
+   "Devices" : [],
+   "FormatVersion" : 11,
+   "LastRegisteredNotificationUri" : "",
+   "LastRegisteredNotificationUriExpirationTime" : "0000-00-00T00:00:00.000",
+   "LastSyncedTime" : "0000-00-00T00:00:00.000",
+   "RegisteredInfoHash" : "",
+   "RegisteredWithStrongAuth" : false,
+   "StableUserId" : "L.Mizz"
+}
