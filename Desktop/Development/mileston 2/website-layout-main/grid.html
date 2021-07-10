@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring grid</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr) 2fr;
+            grid-template-rows: repeat(3, 170px);
+            grid-gap: 2em;
+        }
+        .grid-cell{
+            border: 2px solid salmon;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Exploring grid content</h1>
+    <section class="grid-container">
+        <div class="grid-cell">Cell No-1</div>
+        <div class="grid-cell">Cell No-2</div>
+        <div class="grid-cell">Cell No-3</div>
+        <div class="grid-cell">Cell No-4</div>
+        <div class="grid-cell">Cell No-5</div>
+        <div class="grid-cell">Cell No-6</div>
+        <div class="grid-cell">Cell No-7</div>
+        <div class="grid-cell">Cell No-8</div>
+        <div class="grid-cell">Cell No-9</div>
+        <div class="grid-cell">Cell No-10</div>
+        <div class="grid-cell">Cell No-11</div>
+        <div class="grid-cell">Cell No-12</div>
+    </section>
+</body>
+</html>

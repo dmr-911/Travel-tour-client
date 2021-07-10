@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+    .container{
+        display: flex;
+        height: 500px;
+        border: 2px solid steelblue;
+        /* justify-content: space-around; */
+        align-items: stretch;
+
+    }
+    .box{
+            font-size: 3em;
+            width: 200px;
+            border: 2px dashed palevioletred;
+        }
+        #box1{
+            order: 2;
+        }
+        #box2{
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Learning blexbox content</h1>
+    <div class="container">
+        <div id="box1" class="box">Box-1</div>
+        <div id="box2" class="box">Box-2</div>
+    </div>
+</body>
+</html>

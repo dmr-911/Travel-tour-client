@@ -1,0 +1,165 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) 2fr;
+    grid-template-rows: repeat(2,3em) 4em;
+    grid-gap: 5px;
+}
+.grid-cell{
+    border: 2px solid salmon;
+}
+.login-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  
+}
+.login-form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-form p{
+    font-size: 1.8em;
+    font-weight: 900;
+}
+.login-form input,button{
+    font-size: 1.5em;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.btn{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    border: 0;
+}
+.btn:hover{
+    background-color: teal;
+    transition: background-color .3s;
+}
+.container{
+    height: 500px;
+    border: 2px solid pink;
+    display: flex;
+    align-items: stretch;
+}
+.box{
+    border: 2px dashed red;
+    width: 200px;
+}
+#box-1{
+    order: 2;
+}
+#box-2{
+    flex-grow: 1;
+}
+.calender{
+    margin-top: 50px;
+}
+.calender h1{
+    text-align: center;
+    font-size: 2em;
+}
+.calender-grid{
+    display: grid;
+    grid-template-columns: repeat(7,3fr);
+    grid-template-rows: 2em repeat(5,3em);
+    grid-gap: 1em;
+}
+.date,.day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    font-size: 2em;
+    color: white;
+    border-radius: 10px;
+}
+.prev-month,.day{
+    background-color: gray;
+}
+.photo-album{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.photo-album h1{
+    text-align: center;
+    font-size: 2em;
+}
+.photo-frame{
+    position: relative;
+    width: 300px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 2em;
+}
+.photo{
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 210px;
+}
+.photo img{
+    width: 100%;
+    height: 210px;
+    border-radius: 10px;
+}
+.photo-detail{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    top: 10px;
+    color: whitesmoke;
+    background-color: rgba(133, 64, 52, 0.493);
+    border-radius: 10px;
+    padding: 4px;
+    display: none;
+}
+.photo-detail h2{
+    background-color: rgba(1, 255, 255, 0.658);
+    text-align: center;
+    color: rebeccapurple;
+}
+.photo-frame:hover .photo img{
+    transform: scale(1.4);
+    transition: transform 2s ease-in-out;
+}
+.photo-frame:hover .photo-detail{
+    display: block;
+}
+.responsive-web{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px dashed blue;
+    width: 280px;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.box-container img{
+    width:100%;
+    border-radius: 10px;
+}
+@media (max-width:700px) {
+    .responsive-web{
+        justify-content: center;
+        align-items: center;
+    }
+    .box-container{
+       flex-flow: column;
+
+    }
+}
