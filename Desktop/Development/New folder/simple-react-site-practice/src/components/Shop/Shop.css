@@ -1,0 +1,7 @@
+.search-container{
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.search-field{
+    width: 50%;
+    border-radius: 4px;
+}
