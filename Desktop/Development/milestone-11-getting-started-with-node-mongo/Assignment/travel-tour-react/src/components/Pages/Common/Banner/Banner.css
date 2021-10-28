@@ -1,0 +1,27 @@
+.banner{
+    background-image: url("https://i.ibb.co/LSr4x56/dubai.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9;
+}
+.btn-banner{
+    background-color: rgb(70, 146, 231);
+        font-family: Roboto;
+        text-transform: uppercase;
+        cursor: pointer;
+        box-shadow: none;
+        outline: none;
+        box-sizing: border-box;
+        height: auto;
+        width: 200px;
+        color: white;
+        white-space: nowrap;
+        font-weight: 900;
+        border-color: transparent;
+        padding: 20px 32px;
+        border-radius: 3px;
+        transform-origin: 72.0781px 26px;
+        transform: translate(0px, 0px);
+;
+}
