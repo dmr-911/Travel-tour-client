@@ -7,7 +7,7 @@ import './NavbarCustom.css';
 const NavbarCustom = () => {
     return (
       <div>
-        <Navbar className="custom-nav-bg w-100" expand="lg" variant="dark">
+        <Navbar className="sticky-top custom-nav-bg w-100" expand="lg" variant="dark">
           <Container fluid>
             <Navbar.Brand as={Link} to="/home">
               <img
