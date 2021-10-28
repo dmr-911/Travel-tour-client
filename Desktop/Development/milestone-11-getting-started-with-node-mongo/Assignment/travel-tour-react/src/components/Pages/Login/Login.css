@@ -1,0 +1,10 @@
+.login-page{
+    height: 80vh;
+}
+.google-signin{
+    cursor: pointer;
+}
+.google-signin:hover{
+    background-color: cadetblue;
+    color: white;
+}
