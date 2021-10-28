@@ -1,13 +1,17 @@
 import React from 'react';
+import PopularDestionations from '../PopularDestinations/PopularDestionations';
 import PopularOfferings from '../PopularOfferings/PopularOfferings';
 import Services from '../Services/Services';
+import Banner from '../Banner/Banner';
 
 const Home = () => {
     return (
-        <div>
-            <Services></Services>
-            <PopularOfferings></PopularOfferings>
-        </div>
+      <div>
+        <Banner></Banner>
+        <Services></Services>
+        <PopularOfferings></PopularOfferings>
+        <PopularDestionations></PopularDestionations>
+      </div>
     );
 };
 

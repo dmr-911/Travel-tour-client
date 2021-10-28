@@ -1,13 +1,12 @@
 import React from 'react';
 import { Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import Banner from '../Banner/Banner';
+import { Link, NavLink } from 'react-router-dom';
 import './NavbarCustom.css';
 
 const NavbarCustom = () => {
     return (
       <div>
-        <Navbar className="sticky-top custom-nav-bg w-100" expand="lg" variant="dark">
+        <Navbar className="custom-nav-bg w-100" expand="lg" variant="dark">
           <Container fluid>
             <Navbar.Brand as={Link} to="/home">
               <img
@@ -25,8 +24,12 @@ const NavbarCustom = () => {
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
-                <Nav.Link href="#action1">Home</Nav.Link>
-                <Nav.Link href="#action2">Link</Nav.Link>
+                <Nav.Link as={NavLink} to="/home">Home</Nav.Link>
+                <Nav.Link as={NavLink} to="/myOrders">My Orders</Nav.Link>
+                <Nav.Link as={NavLink} to="/allOrders">Manage Orders</Nav.Link>
+                <Nav.Link as={NavLink} to="/addOffer">Add Offer</Nav.Link>
+                <Nav.Link as={NavLink} to="/about">About</Nav.Link>
+                <Nav.Link as={NavLink} to="/login">Login</Nav.Link>
               </Nav>
               <Form className="d-flex">
                 <FormControl
@@ -39,7 +42,6 @@ const NavbarCustom = () => {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        <Banner></Banner>
       </div>
     );
 };

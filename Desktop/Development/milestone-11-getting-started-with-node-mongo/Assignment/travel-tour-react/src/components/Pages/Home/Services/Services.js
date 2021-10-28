@@ -10,10 +10,10 @@ const Services = () => {
             .then(data => setServices(data));
     },[])
     return (
-      <Container fluid bg="primary" className="pt-3 py-5">
+      <Container fluid bg="primary" className="pt-3 py-5" style={{backgroundColor: 'black'}}>
         <Container>
             <h2 className="text-white mb-2">Our Services</h2>
-            <div className="divider bg-info rounded mb-4 mx-auto"></div>
+            <div className="divider bg-info rounded mb-3 mx-auto"></div>
           <Row className="g-4 text-white">
             {services.map((service) => (
               <Col key={service.key}>
