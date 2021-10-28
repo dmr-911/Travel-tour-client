@@ -1,0 +1,65 @@
+[
+  {
+    "key": "1",
+    "image": "https://i.ibb.co/LSr4x56/dubai.jpg",
+    "name": "DUBAI – ALL STUNNING PLACES",
+    "description": "Located in the eastern part of the Arabian Peninsula on the coast of the Persian Gulf, Dubai aims to be the business hub of Western Asia.",
+    "price": "1200",
+    "time": "8 Hours",
+    "rating": "4.7"
+  },
+  {
+    "key": "2",
+    "image": "https://i.ibb.co/9vr1Q8B/finland.jpg",
+    "name": "FINLAND – HELSINKI, SANTA CLAUS TOWN",
+    "description": "Its capital, Helsinki, occupies a peninsula and surrounding islands in the Baltic Sea.",
+    "price": "3500",
+    "time": "8 Days 7 Nights",
+    "rating": "4"
+  },
+  {
+    "key": "3",
+    "image": "https://i.ibb.co/mX5vyXs/italy.jpg",
+    "name": "ENQUIRY FORM ONLY – ITALY ",
+    "description": "Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine.",
+    "price": "2000",
+    "time": "5 Days",
+    "rating": "4.3"
+  },
+  {
+    "key": "4",
+    "image": "https://i.ibb.co/jJB9350/japan.jpg",
+    "name": "JAPAN – 5 DAYS IN TOKYO, FUJIKAWA",
+    "description": "Japan (Japanese: 日本, Nippon or Nihon, and formally 日本国) is an island country in East Asia, located in the northwest Pacific Ocean.",
+    "price": "1600",
+    "time": "5 Days",
+    "rating": "4.4"
+  },
+  {
+    "key": "5",
+    "image": "https://i.ibb.co/488DsrV/paris.jpg",
+    "name": "PARIS – EIFFEL TOWER, NOTRE DAME CATH..",
+    "description": "Paris is located in northern central France, in a north-bending arc of the river Seine whose crest includes two islands.",
+    "price": "900",
+    "time": "10 Hours",
+    "rating": "4.8"
+  },
+  {
+    "key": "6",
+    "image": "https://i.ibb.co/ng2THsK/switchzerland.jpg",
+    "name": "SWITZERLAND – 7 DAYS IN ZURICH, ZERMATT",
+    "description": "Switzerland, officially the Swiss Confederation, is a landlocked country at the confluence of Western, Central and Southern Europe. ... It is a federal republic ...",
+    "price": "3500",
+    "time": "7 Days",
+    "rating": "4.6"
+  },
+  {
+    "key": "7",
+    "image": "https://i.ibb.co/pfX8yLv/america.jpg",
+    "name": "AMERICA – 2 DAYS IN LAKE TAHOE",
+    "description": "The United States (U.S. or US), officially the United States of America (U.S.A. or USA) or America, is a country primarily located in North America.",
+    "price": "300",
+    "time": "2 Days",
+    "rating": "3.9"
+  }
+]
