@@ -11,6 +11,8 @@ import AddOffer from './components/Pages/AddOffer/AddOffer';
 import ManageOrders from './components/Pages/ManageOrders/ManageOrders';
 import MyOrders from './components/Pages/MyOrders/MyOrders';
 import AuthProvider from './Context/AuthProvider';
+import AddOrder from './components/Pages/AddOrder/AddOrder';
+import PrivateRoute from './components/Pages/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -40,6 +42,9 @@ function App() {
           <Route path="/myOrders">
             <MyOrders></MyOrders>
           </Route>
+          <PrivateRoute path="/addOrder/:id">
+            <AddOrder></AddOrder>
+          </PrivateRoute>
           <Route path="*">
             <NotFound></NotFound>
           </Route>

@@ -4,10 +4,18 @@ import './SingleOffering.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import Rating from 'react-rating';
+import { useHistory } from 'react-router';
 
 const SingleOffering = ({ offering }) => {
-    const { image, name, rating, price, time, description } = offering;
-    const clock = <FontAwesomeIcon icon={faClock} style={{backgroundColor:'white', color:'blue', fontSize:'18px'}}/>;
+  const history = useHistory();
+  const { image, name, rating, price, time, description, _id } = offering;
+  const clock = <FontAwesomeIcon icon={faClock} style={{ backgroundColor: 'white', color: 'blue', fontSize: '18px' }} />;
+  
+  const onHandleBuy = () => {
+    const uri = `/addOrder/${_id}`;
+    history.push(uri);
+  };
+
     return (
       <Col>
         <Card className="offer-card">
@@ -32,7 +40,7 @@ const SingleOffering = ({ offering }) => {
                 <h2 className="fw-bold">${price}</h2>
               </Col>
             </Row>
-            <Button variant="danger" className="mt-3">Buy Package</Button>
+            <Button onClick={onHandleBuy} variant="danger" className="mt-3">Buy Package</Button>
           </Card.Body>
         </Card>
       </Col>
