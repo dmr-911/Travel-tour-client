@@ -3,6 +3,7 @@
 }
 .google-signin{
     cursor: pointer;
+    transition: background-color .7s;
 }
 .google-signin:hover{
     background-color: cadetblue;

@@ -10,13 +10,13 @@ const SingleOffering = ({ offering }) => {
     const clock = <FontAwesomeIcon icon={faClock} style={{backgroundColor:'white', color:'blue', fontSize:'18px'}}/>;
     return (
       <Col>
-        <Card>
+        <Card className="offer-card">
           <Card.Img variant="top" src={image} />
           <Card.Body>
             <Row>
               <Col xs={7} className="d-flex flex-column align-items-start">
                 <Card.Title>{name}</Card.Title>
-                <Card.Text>{description}</Card.Text>
+                <Card.Text>{description.slice(0, 99)}</Card.Text>
                 <div className="w-50 d-flex justify-content-between my-2">
                   {clock}
                   <small>{time}</small>

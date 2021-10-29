@@ -10,8 +10,8 @@ const SinglePopularDestination = ({ destination }) => {
     return (
       <Container fluid>
         <Col>
-          <Card>
-            <Card.Img variant="top" src={image} height="250px"/>
+          <Card className="destination-card">
+            <Card.Img className="destination-img" variant="top" src={image} height="250px"/>
             <Card.Body>
               <Card.Title>{location} <span> {place}</span></Card.Title>
             </Card.Body>

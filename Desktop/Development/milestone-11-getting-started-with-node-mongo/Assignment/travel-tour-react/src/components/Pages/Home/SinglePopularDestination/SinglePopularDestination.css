@@ -1,0 +1,8 @@
+.destination-card{
+    background-color: thistle;
+    transition: background-color .8s;
+}
+.destination-card:hover{
+    background-color: tomato;
+    color: white;
+}

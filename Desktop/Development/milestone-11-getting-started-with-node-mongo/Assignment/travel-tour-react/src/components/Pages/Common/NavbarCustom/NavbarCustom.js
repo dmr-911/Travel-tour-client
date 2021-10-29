@@ -1,9 +1,11 @@
 import React from 'react';
 import { Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
+import useAuth from '../../../../hooks/useAuth';
 import './NavbarCustom.css';
 
 const NavbarCustom = () => {
+  const { user, logOut } = useAuth();
     return (
       <div>
         <Navbar className="custom-nav-bg w-100" expand="lg" variant="dark">
@@ -24,12 +26,35 @@ const NavbarCustom = () => {
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
-                <Nav.Link as={NavLink} to="/home">Home</Nav.Link>
-                <Nav.Link as={NavLink} to="/myOrders">My Orders</Nav.Link>
-                <Nav.Link as={NavLink} to="/allOrders">Manage Orders</Nav.Link>
-                <Nav.Link as={NavLink} to="/addOffer">Add Offer</Nav.Link>
-                <Nav.Link as={NavLink} to="/about">About</Nav.Link>
-                <Nav.Link as={NavLink} to="/login">Login</Nav.Link>
+                <Nav.Link as={NavLink} to="/home">
+                  Home
+                </Nav.Link>
+                <Nav.Link as={NavLink} to="/myOrders">
+                  My Orders
+                </Nav.Link>
+                <Nav.Link as={NavLink} to="/allOrders">
+                  Manage Orders
+                </Nav.Link>
+                <Nav.Link as={NavLink} to="/addOffer">
+                  Add Offer
+                </Nav.Link>
+                <Nav.Link as={NavLink} to="/about">
+                  About
+                </Nav.Link>
+                {user.email ? (
+                  <>
+                    <button
+                      onClick={logOut}
+                      className="btn-danger rounded-pill"
+                    >
+                      Logout
+                    </button>
+                  </>
+                ) : (
+                  <Nav.Link as={NavLink} to="/login">
+                    Login
+                  </Nav.Link>
+                )}
               </Nav>
               <Form className="d-flex">
                 <FormControl

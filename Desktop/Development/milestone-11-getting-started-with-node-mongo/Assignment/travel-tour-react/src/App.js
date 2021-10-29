@@ -10,10 +10,12 @@ import About from './components/Pages/About/About';
 import AddOffer from './components/Pages/AddOffer/AddOffer';
 import ManageOrders from './components/Pages/ManageOrders/ManageOrders';
 import MyOrders from './components/Pages/MyOrders/MyOrders';
+import AuthProvider from './Context/AuthProvider';
 
 function App() {
   return (
     <div className="App">
+      <AuthProvider>
       <Router>
         <NavbarCustom></NavbarCustom>
         <Switch>
@@ -43,6 +45,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      </AuthProvider>
     </div>
   );
 }
