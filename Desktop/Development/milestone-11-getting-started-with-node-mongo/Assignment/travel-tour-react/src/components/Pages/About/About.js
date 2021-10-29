@@ -8,7 +8,7 @@ import "./About.css";
 const About = () => {
   const [about, setAbout] = useState({});
   useEffect(() => {
-    fetch("http://localhost:5000/about")
+    fetch("https://infinite-stream-42915.herokuapp.com/about")
       .then((res) => res.json())
       .then((data) => setAbout(data));
   }, []);
