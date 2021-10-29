@@ -1,0 +1,14 @@
+.support-container{
+    background-image: url("https://i.ibb.co/4YC1gRk/img01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.custom-btn{
+    background-color: white;
+    color: tomato;
+    transition: background-color .7s;
+}
+.custom-btn:hover{
+    background-color: tomato;
+    color: white;
+}

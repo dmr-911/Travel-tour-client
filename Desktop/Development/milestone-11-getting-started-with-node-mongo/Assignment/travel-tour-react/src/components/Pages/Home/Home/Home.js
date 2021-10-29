@@ -3,6 +3,7 @@ import PopularDestionations from '../PopularDestinations/PopularDestionations';
 import PopularOfferings from '../PopularOfferings/PopularOfferings';
 import Services from '../Services/Services';
 import Banner from '../Banner/Banner';
+import Support from '../Support/Support';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
         <Services></Services>
         <PopularOfferings></PopularOfferings>
         <PopularDestionations></PopularDestionations>
+        <Support></Support>
       </div>
     );
 };
