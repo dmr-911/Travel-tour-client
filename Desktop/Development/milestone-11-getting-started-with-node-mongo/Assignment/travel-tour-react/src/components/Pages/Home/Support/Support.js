@@ -16,7 +16,7 @@ const Support = () => {
               />
             </div>
             <div>
-              <h3 className="fs-1 fw-bold">Support in 1 Day</h3>
+              <h3 className="fw-bold">Support in 1 Day</h3>
               <p>
                 Don't worry we have a great support team ready to help you at
                 any time in a very professional way.
@@ -34,10 +34,10 @@ const Support = () => {
               />
             </div>
             <div>
-              <h3 className="fs-1 fw-bold">Support in 1 Day</h3>
+              <h3 className="fw-bold">Well Documented</h3>
               <p>
-                Don't worry we have a great support team ready to help you at
-                any time in a very professional way.
+                You can solve all your doubts thanks to the documentation and
+                the video tutorials present ready for help you.
               </p>
               <Button className="custom-btn">Check It</Button>
             </div>
@@ -52,10 +52,10 @@ const Support = () => {
               />
             </div>
             <div>
-              <h3 className="fs-1 fw-bold">Support in 1 Day</h3>
+              <h3 className=" fw-bold">Always Updated</h3>
               <p>
-                Don't worry we have a great support team ready to help you at
-                any time in a very professional way.
+                We guarantee frequent updates to always add new features and new
+                most requested compatibility.
               </p>
               <Button className="custom-btn">Check It</Button>
             </div>

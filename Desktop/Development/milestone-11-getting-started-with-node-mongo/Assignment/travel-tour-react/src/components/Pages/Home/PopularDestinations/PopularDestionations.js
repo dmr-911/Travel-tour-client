@@ -15,7 +15,7 @@ const PopularDestionations = () => {
           .then((data) => setDestinations(data));
     },[])
     return (
-      <Container fluid className="px-0" style={{backgroundColor:'black'}}>
+      <Container fluid className="px-0 bg-dark">
         <Container className="py-5 text-white text-start">
           <h2>
             <span>{location}</span> Popular Destinations
