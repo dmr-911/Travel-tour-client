@@ -12,6 +12,19 @@ const Login = () => {
 
     const handleGoogleSignIn = () => {
       googleSignIn().then((result) => {
+        // fetch(
+        //   `https://infinite-stream-42915.herokuapp.com/addOffer/${result.user.email}`, {
+        //     method: 'POST',
+        //     headers: {
+        //       "content-type": "application/json"
+        //     },
+        //     body: JSON.stringify(result.user.email)
+        //   }
+        // ).then(res => res.json())
+        //   .then(data => {
+        //     console.log(data);
+        //     history.push(redirect_url);
+        // })
         history.push(redirect_url);
       });
     };

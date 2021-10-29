@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
+import useAuth from '../../../hooks/useAuth';
 import MyOrder from '../MyOrder/MyOrder';
 
 const MyOrders = () => {
+  const { user } = useAuth();
     const [addedOrders, setAddedOrders] = useState([]);
     useEffect(() => {
-        fetch("https://infinite-stream-42915.herokuapp.com/addOffer")
+        fetch(`https://infinite-stream-42915.herokuapp.com/addOffer?search=${user.email}`)
             .then(res => res.json())
             .then(data => setAddedOrders(data));
     }, []);
@@ -23,7 +25,7 @@ const MyOrders = () => {
 
   return (
     <>
-      <Container fluid className="bg-dark pb-5" style={{ height: "80vh" }}>
+      <Container fluid className="bg-dark pb-5">
         <h2 className="text-white mb-2">My Orders</h2>
         <div className="divider bg-info rounded mb-3 mx-auto"></div>
         {addedOrders.length && (

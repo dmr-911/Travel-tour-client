@@ -29,6 +29,7 @@ const Footer = () => {
                 abroad. Check the latest updates here. Domestic Travel Advisory
                 International Travel Advisory
               </p>
+              <div className="divider bg-info rounded my-3 mx-auto"></div>
             </Col>
             <Col>
               <div className="d-flex align-items-center justify-content-center mb-4">
@@ -58,6 +59,7 @@ const Footer = () => {
                 <span>{location} </span>
                 <span> 3146 Koontz, California</span>
               </p>
+              <div className="divider bg-info rounded my-3 mx-auto"></div>
             </Col>
             <Col>
               <div className="d-flex align-items-center justify-content-center mb-4">
@@ -75,6 +77,7 @@ const Footer = () => {
                 Life is a beautiful journey not a destination
               </p>
               <p className="mb-3">Take only memories, leave only footprints</p>
+              <div className="divider bg-info rounded my-3 mx-auto"></div>
             </Col>
             <Col>
               <div className="d-flex align-items-center justify-content-center mb-4">
@@ -95,6 +98,7 @@ const Footer = () => {
                   Submit
                 </Button>
               </form>
+              <div className="divider bg-info rounded my-3 mx-auto"></div>
             </Col>
           </Row>
         </Container>
@@ -108,10 +112,12 @@ const Footer = () => {
               <p>Travel Around The World, Enjoy like a free bird</p>
             </Col>
             <Col>
-              <img src="https://i.ibb.co/QDt4j81/logo.png" alt=""/>
+              <img src="https://i.ibb.co/QDt4j81/logo.png" alt="" />
             </Col>
             <Col>
-              <small>Copyright ©DMR 2021 Travel Tour. All rights reserved.</small>
+              <small>
+                Copyright ©DMR 2021 Travel Tour. All rights reserved.
+              </small>
             </Col>
           </Row>
         </Container>
