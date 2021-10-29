@@ -1,11 +1,12 @@
 import React from 'react';
-import { Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import useAuth from '../../../../hooks/useAuth';
 import './NavbarCustom.css';
 
 const NavbarCustom = () => {
   const { user, logOut } = useAuth();
+  console.log(user);
     return (
       <div>
         <Navbar className="custom-nav-bg w-100" expand="lg" variant="dark">
@@ -42,28 +43,21 @@ const NavbarCustom = () => {
                   About
                 </Nav.Link>
                 {user.email ? (
-                  <>
+                  <div className="d-flex align-items-center mx-auto">
+                    <img src={user.reloadUserInfo.photoUrl} alt="" height="30px" width="30px" className="rounded-circle mx-2"/>
                     <button
                       onClick={logOut}
-                      className="btn-danger rounded-pill"
+                      className="btn-danger rounded me-2"
                     >
                       Logout
                     </button>
-                  </>
+                  </div>
                 ) : (
                   <Nav.Link as={NavLink} to="/login">
                     Login
                   </Nav.Link>
                 )}
               </Nav>
-              <Form className="d-flex">
-                <FormControl
-                  type="search"
-                  placeholder="Search"
-                  className="me-2"
-                  aria-label="Search"
-                />
-              </Form>
             </Navbar.Collapse>
           </Container>
         </Navbar>

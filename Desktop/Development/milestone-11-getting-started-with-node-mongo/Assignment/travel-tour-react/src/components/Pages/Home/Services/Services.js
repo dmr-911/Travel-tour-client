@@ -5,9 +5,10 @@ import './Services.css';
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5000/services")
-            .then(res => res.json())
-            .then(data => setServices(data));
+        // fetch("http://localhost:5000/services")
+        fetch("https://infinite-stream-42915.herokuapp.com/services")
+          .then((res) => res.json())
+          .then((data) => setServices(data));
     },[])
     return (
       <Container fluid bg="primary" className="pt-3 py-5" style={{backgroundColor: 'black'}}>

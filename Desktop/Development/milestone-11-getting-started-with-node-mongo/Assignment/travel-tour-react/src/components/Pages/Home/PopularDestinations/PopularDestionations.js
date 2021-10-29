@@ -9,12 +9,13 @@ const PopularDestionations = () => {
     const location = <FontAwesomeIcon icon={faMapMarkerAlt} />;
     const [destinations, setDestinations] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5000/destinations")
-            .then(res => res.json())
-            .then(data => setDestinations(data));
+        // fetch("http://localhost:5000/destinations")
+        fetch("https://infinite-stream-42915.herokuapp.com/destinations")
+          .then((res) => res.json())
+          .then((data) => setDestinations(data));
     },[])
     return (
-      <Container fluid className="pb-4 px-0" style={{backgroundColor:'black'}}>
+      <Container fluid className="px-0" style={{backgroundColor:'black'}}>
         <Container className="py-5 text-white text-start">
           <h2>
             <span>{location}</span> Popular Destinations
