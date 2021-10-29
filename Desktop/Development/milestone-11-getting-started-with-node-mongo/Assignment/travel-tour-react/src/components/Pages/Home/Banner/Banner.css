@@ -22,6 +22,9 @@
         padding: 20px 32px;
         border-radius: 3px;
         transform-origin: 72.0781px 26px;
-        transform: translate(0px, 0px);
-;
+        transition: background-color .6s;
+}
+
+.btn-banner:hover{
+    background-color: slateblue;
 }

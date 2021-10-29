@@ -21,12 +21,14 @@ const MyOrders = () => {
             });
         };
 
-    return (
-      <Container fluid className="bg-dark pb-5" style={{ height: "100vh" }}>
+  return (
+    <>
+      <Container fluid className="bg-dark pb-5" style={{ height: "80vh" }}>
         <h2 className="text-white mb-2">My Orders</h2>
         <div className="divider bg-info rounded mb-3 mx-auto"></div>
         {addedOrders.length && (
-          <Container className="bg-light rounded-2 p-3">
+          <>
+          <Container className="bg-light rounded-2 p-3 mb-5">
             <Row xs={1} md={3} lg={4} className="g-2">
               {addedOrders.map((order) => (
                 <MyOrder
@@ -37,9 +39,12 @@ const MyOrders = () => {
               ))}
             </Row>
           </Container>
+            <div className="divider bg-info rounded mb-3 mx-auto"></div>
+            </>
         )}
       </Container>
-    );
+    </>
+  );
 };
 
 export default MyOrders;
