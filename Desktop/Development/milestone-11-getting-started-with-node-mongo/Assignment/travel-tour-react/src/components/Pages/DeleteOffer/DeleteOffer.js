@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Table, Button, Spinner } from 'react-bootstrap';
-import useOfferings from '../../../hooks/useOfferings';
+import { Container, Table, Spinner } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 

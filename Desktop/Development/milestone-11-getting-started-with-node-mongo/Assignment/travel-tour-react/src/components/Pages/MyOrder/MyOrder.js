@@ -6,7 +6,7 @@ const MyOrder = ({ order, handleDelete }) => {
     const { info, _id } = order;
 
     return (
-      <Col>
+      <Col className="mx-auto">
         <Card className="border border-2 border-dark custom-bg text-white">
           <Card.Img variant="top" src={info.image} height="200px" />
           <Card.Body>

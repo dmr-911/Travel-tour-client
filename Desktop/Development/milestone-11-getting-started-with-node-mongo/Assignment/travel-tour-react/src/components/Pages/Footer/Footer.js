@@ -112,7 +112,7 @@ const Footer = () => {
               </div>
               <form onSubmit={handleSubmit(onSubmit)}>
                 {subscriber ? (
-                  <input type="submit" value="Subscribed" disabled/>
+                  <input type="submit" className="text-white" value="Subscribed" disabled/>
                 ) : (
                     <>
                 <input
