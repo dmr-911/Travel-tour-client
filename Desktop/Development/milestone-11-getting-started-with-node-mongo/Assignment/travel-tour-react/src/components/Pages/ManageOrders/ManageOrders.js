@@ -53,7 +53,10 @@ const ManageOrders = () => {
 
     return (
       <Container fluid className="bg-dark pb-5">
-        <h2 className="text-white mb-2">All Orders</h2>
+        <h2 className="text-white my-2">
+          <span className="text-white">Manage</span>{" "}
+          <span className="color-orrange">Orders</span>
+        </h2>
         <div className="divider bg-info rounded mb-3 mx-auto"></div>
         {orders.length ? (
           <Container className="bg-light rounded-2 p-3 mb-5">

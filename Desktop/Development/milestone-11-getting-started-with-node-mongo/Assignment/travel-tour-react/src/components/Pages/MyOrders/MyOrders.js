@@ -26,11 +26,15 @@ const MyOrders = () => {
   return (
     <>
       <Container fluid className="bg-dark pb-5">
-        <h2 className="text-white mb-2">My Orders</h2>
+        <h2 className="text-white my-2">
+          {" "}
+          <span className="text-white">My</span>{" "}
+          <span className="color-orrange">Orders</span>
+        </h2>
         <div className="divider bg-info rounded mb-3 mx-auto"></div>
         {addedOrders.length ? (
           <>
-            <Container className="bg-light rounded-2 p-3 mb-5">
+            <Container className="bg-light rounded-2 p-3 mb-2">
               <Row xs={1} md={3} lg={4} className="g-2">
                 {addedOrders.map((order) => (
                   <MyOrder

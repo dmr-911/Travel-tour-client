@@ -18,7 +18,8 @@ const PopularDestionations = () => {
       <Container fluid className="px-0 bg-dark">
         <Container className="py-5 text-white text-start">
           <h2>
-            <span>{location}</span> Popular Destinations
+            <span>{location}</span> <span className="text-white">Popular</span>{" "}
+            <span className="color-orrange">Destinations</span>
           </h2>
           <small className="text-secondary">
             Our Favorite Travel Documentaries and Where to Watch Them ... and

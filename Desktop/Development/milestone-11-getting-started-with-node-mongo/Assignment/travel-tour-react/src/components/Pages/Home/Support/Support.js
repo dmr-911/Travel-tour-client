@@ -16,7 +16,9 @@ const Support = () => {
               />
             </div>
             <div>
-              <h3 className="fw-bold">Support in 1 Day</h3>
+              <h3 className="fw-bold">
+                <span className="color-orrange">Support in 1 Day</span>
+              </h3>
               <p>
                 Don't worry we have a great support team ready to help you at
                 any time in a very professional way.
@@ -34,7 +36,9 @@ const Support = () => {
               />
             </div>
             <div>
-              <h3 className="fw-bold">Well Documented</h3>
+              <h3 className="fw-bold">
+                <span className="color-orrange">Well Documented</span>
+              </h3>
               <p>
                 You can solve all your doubts thanks to the documentation and
                 the video tutorials present ready for help you.
@@ -52,7 +56,9 @@ const Support = () => {
               />
             </div>
             <div>
-              <h3 className=" fw-bold">Always Updated</h3>
+              <h3 className=" fw-bold">
+                <span className="color-orrange">Always Updated</span>
+              </h3>
               <p>
                 We guarantee frequent updates to always add new features and new
                 most requested compatibility.

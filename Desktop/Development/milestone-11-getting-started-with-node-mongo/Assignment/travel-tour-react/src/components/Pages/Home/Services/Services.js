@@ -13,7 +13,10 @@ const Services = () => {
     return (
       <Container fluid bg="primary" className="pt-3 py-5 bg-dark">
         <Container>
-          <h2 className="text-white mb-2">Our Services</h2>
+          <h2 className="text-white mb-2">
+            <span className="text-white">Our</span>{" "}
+            <span className="color-orrange">Services</span>
+          </h2>
           <div className="divider bg-info rounded mb-3 mx-auto"></div>
           {services.length ? (
             <Row xs={1} md={4} className="g-4 text-white">

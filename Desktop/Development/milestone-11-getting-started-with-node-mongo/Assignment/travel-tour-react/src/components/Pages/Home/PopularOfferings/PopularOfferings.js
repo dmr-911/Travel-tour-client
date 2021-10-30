@@ -9,7 +9,8 @@ const PopularOfferings = () => {
       <Container fluid className="popular-container">
         <Container className="pt-5">
           <h3 className="fw-bold text-white" style={{ textAlign: "left" }}>
-            Popular Tour Packages
+            <span className="text-white">Popular</span>{" "}
+            <span className="color-orrange">Travel Packages</span>
           </h3>
           {offerings.length ? (
             <Row xs={1} md={3} className="g-4 py-5">
