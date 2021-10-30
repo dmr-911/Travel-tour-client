@@ -6,7 +6,6 @@ import './NavbarCustom.css';
 
 const NavbarCustom = () => {
   const { user, logOut } = useAuth();
-  console.log(user);
     return (
       <div>
         <Navbar className="custom-nav-bg w-100" expand="lg" variant="dark">

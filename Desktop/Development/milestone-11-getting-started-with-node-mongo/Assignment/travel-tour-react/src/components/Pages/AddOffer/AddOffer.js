@@ -1,55 +1,93 @@
-import React from 'react';
-import { Container, Form, Button, Col } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Card, Col, Button, Modal } from 'react-bootstrap';
+import { useForm } from "react-hook-form";
 
 const AddOffer = () => {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    const { register, handleSubmit, reset } = useForm();
+  const onSubmit = (data) => {
+    console.log(data);
+    fetch("https://infinite-stream-42915.herokuapp.com/offerings", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        reset();
+        handleShow();
+      });
+  };
+
     return (
-      <Container fluid className="bg-dark pb-5">
-        <h2 className="text-white mb-2">Add New Offer</h2>
-        <div className="divider bg-info rounded mb-3 mx-auto"></div>
-        <Col xs={10} md={4} className="mx-auto">
-          <Form>
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Control
-                type="text"
+      <div className="bg-dark login-page pt-5">
+        <img src="https://i.ibb.co/QDt4j81/logo.png" alt="" />
+        <Col xs={12} md={5} className="mx-auto mt-5">
+          <Card className="p-3">
+            <h3>Add New Offer Information</h3>
+            <div className="divider bg-info rounded mb-3 mx-auto"></div>
+            <form onSubmit={handleSubmit(onSubmit)}>
+              <input
+                className="add-order-input"
                 placeholder="Offer Name"
-                className="border border-1 border-dark"
-              />
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Control
-                type="text"
-                placeholder="Image Url"
-                className="border border-1 border-dark"
-              />
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Control
-                type="number"
-                placeholder="Enter Cost"
-                className="border border-1 border-dark"
-              />
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Control
-                type="text"
-                placeholder="Enter Rating"
-                className="border border-1 border-dark"
-              />
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Control
-                type="text"
-                placeholder="Status"
-                className="border border-1 border-dark"
-              />
-            </Form.Group>
-            <Button variant="success" type="submit">
-              Add Offer
-            </Button>
-          </Form>
+                {...register("name", { required: true })}
+              />{" "}
+              <br />
+              <input
+                className="add-order-input"
+                placeholder="Add Description"
+                {...register("description", { required: true })}
+              />{" "}
+              <br />
+              <input
+                className="add-order-input"
+                placeholder="Add image url"
+                {...register("image", { required: true })}
+              />{" "}
+              <br />
+              <input
+                className="add-order-input"
+                placeholder="Add Offer Price"
+                {...register("price", { required: true })}
+              />{" "}
+              <br />
+              <input
+                className="add-order-input"
+                placeholder="Add duration"
+                {...register("time", { required: true })}
+              />{" "}
+              <br />
+              <input
+                className="add-order-input"
+                placeholder="Add rating"
+                {...register("rating", { required: true })}
+              />{" "}
+              <br />
+              <input type="submit" value="Proceed"/>
+            </form>
+          </Card>
         </Col>
-        <div className="divider bg-info rounded mt-5 mx-auto"></div>
-      </Container>
+
+        <Modal show={show} onHide={handleClose}>
+          <Modal.Header closeButton>
+            <Modal.Title>New Offer Added</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>Woohoo, you've added a new Offer.</Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleClose}>
+              Close
+            </Button>
+            <Button variant="primary" onClick={handleClose}>
+              Save Changes
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      </div>
     );
 };
 

@@ -14,7 +14,7 @@ const PopularOfferings = () => {
           <Row xs={1} md={3} className="g-4 py-5">
             {offerings.map((offering) => (
               <SingleOffering
-                key={offering.key}
+                key={offering._id}
                 offering={offering}
               ></SingleOffering>
             ))}
