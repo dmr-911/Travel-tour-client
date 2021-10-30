@@ -6,23 +6,23 @@ import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 const DeleteOffer = () => {
     const [orders, setOrders] = useState([]);
         useEffect(() => {
-          fetch("http://localhost:5000/offerings")
+          fetch("https://infinite-stream-42915.herokuapp.com/offerings")
             .then((res) => res.json())
             .then((data) => setOrders(data));
         }, []);
 
     const del = <FontAwesomeIcon icon={faTrashAlt} className="text-danger"/>;
     const handleDelete = (id) => {
-        fetch(`http://localhost:5000/offerings/${id}`, {
-            method: 'DELETE'
+        fetch(`https://infinite-stream-42915.herokuapp.com/offerings/${id}`, {
+          method: "DELETE",
         })
-            .then(res => res.json())
-            .then(data => {
-                if (data.deletedCount > 0) {
-                    const rest = orders.filter((order) => order._id !== id);
-                    setOrders(rest);
-                }
-            });
+          .then((res) => res.json())
+          .then((data) => {
+            if (data.deletedCount > 0) {
+              const rest = orders.filter((order) => order._id !== id);
+              setOrders(rest);
+            }
+          });
         
         
       };
