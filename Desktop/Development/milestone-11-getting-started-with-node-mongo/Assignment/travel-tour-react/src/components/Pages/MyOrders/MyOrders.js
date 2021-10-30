@@ -41,7 +41,6 @@ const MyOrders = () => {
                 ))}
               </Row>
             </Container>
-            <div className="divider bg-info rounded mb-3 mx-auto"></div>
           </>
         ) : (
           <h2 className="text-white">You haven't ordered yet!</h2>

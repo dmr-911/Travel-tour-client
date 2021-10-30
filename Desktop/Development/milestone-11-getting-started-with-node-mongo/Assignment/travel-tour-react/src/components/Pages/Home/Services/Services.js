@@ -16,7 +16,7 @@ const Services = () => {
           <h2 className="text-white mb-2">Our Services</h2>
           <div className="divider bg-info rounded mb-3 mx-auto"></div>
           {services.length ? (
-            <Row className="g-4 text-white">
+            <Row xs={1} md={4} className="g-4 text-white">
               {services.map((service) => (
                 <Col key={service.key}>
                   <div className="d-flex justify-content-evenly">

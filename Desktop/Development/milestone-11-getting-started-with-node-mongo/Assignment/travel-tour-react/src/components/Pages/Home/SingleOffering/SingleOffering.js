@@ -25,22 +25,25 @@ const SingleOffering = ({ offering }) => {
               <Col xs={7} className="d-flex flex-column align-items-start">
                 <Card.Title>{name}</Card.Title>
                 <Card.Text>{description.slice(0, 99)}</Card.Text>
-                <div className="w-50 d-flex justify-content-between my-2">
-                  {clock}
-                  <small>{time}</small>
-                </div>
-                <Rating
-                  initialRating={rating}
-                  emptySymbol="far fa-star icon-color"
-                  fullSymbol="fas fa-star  icon-color"
-                  readonly
-                />
               </Col>
               <Col xs={5}>
                 <h2 className="fw-bold">${price}</h2>
               </Col>
+              <div className="w-50 d-flex justify-content-around mx-auto my-2">
+                {clock} <small>Duration : </small>
+                <small>{time}</small>
+              </div>
+              <Rating
+                initialRating={rating}
+                emptySymbol="far fa-star icon-color"
+                fullSymbol="fas fa-star  icon-color"
+                readonly
+                className="mx-auto"
+              />
             </Row>
-            <Button onClick={onHandleBuy} variant="danger" className="mt-3">Buy Package</Button>
+            <Button onClick={onHandleBuy} variant="danger" className="mt-3">
+              Buy Package
+            </Button>
           </Card.Body>
         </Card>
       </Col>
