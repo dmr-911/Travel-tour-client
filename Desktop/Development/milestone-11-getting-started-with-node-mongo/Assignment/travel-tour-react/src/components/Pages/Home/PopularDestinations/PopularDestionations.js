@@ -1,21 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './PopularDestinations.css';
 import { Container, Row, Spinner } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import SinglePopularDestination from '../SinglePopularDestination/SinglePopularDestination';
+import useDetination from '../../../../hooks/useDestination';
 
 const PopularDestionations = () => {
   const location = <FontAwesomeIcon icon={faMapMarkerAlt} style={{color: 'tomato'}}/>;
-    const [destinations, setDestinations] = useState([]);
-    useEffect(() => {
-        // fetch("http://localhost:5000/destinations")
-        fetch("https://infinite-stream-42915.herokuapp.com/destinations")
-          .then((res) => res.json())
-          .then((data) => setDestinations(data));
-    },[])
+  const { destinations } = useDetination();
     return (
-      <Container fluid className="px-0 bg-dark">
+      <Container fluid className="px-0 bg-dark" id="destinations">
         <Container className="py-5 text-white text-start">
           <h2>
             <span>{location}</span> <span className="text-white">Popular</span>{" "}

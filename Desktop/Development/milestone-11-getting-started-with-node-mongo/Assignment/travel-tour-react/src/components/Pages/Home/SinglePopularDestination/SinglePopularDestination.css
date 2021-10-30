@@ -1,6 +1,7 @@
 .destination-card{
     background-color: thistle;
     transition: background-color .8s;
+    cursor: pointer;
 }
 .destination-card:hover{
     background-color: tomato;

@@ -15,6 +15,7 @@ import AddOrder from './components/Pages/AddOrder/AddOrder';
 import PrivateRoute from './components/Pages/PrivateRoute/PrivateRoute';
 import Footer from './components/Pages/Footer/Footer';
 import SignIn from './components/Pages/SignIn/SignIn';
+import DestinationDetails from './components/Pages/Home/DestinationDetails/DestinationDetails';
 
 function App() {
   return (
@@ -49,6 +50,9 @@ function App() {
           </PrivateRoute>
             <Route path="/signUp">
               <SignIn></SignIn>
+            </Route>
+            <Route path="/destination/:id">
+            <DestinationDetails></DestinationDetails>    
             </Route>
           <Route path="*">
             <NotFound></NotFound>
