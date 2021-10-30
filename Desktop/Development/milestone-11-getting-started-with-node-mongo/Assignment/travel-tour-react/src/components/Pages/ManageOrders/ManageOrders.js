@@ -26,7 +26,7 @@ const ManageOrders = () => {
           status: "approved"
 }
     // const url = `https://infinite-stream-42915.herokuapp.com/addOffer/${id}`;
-    const url = `http://localhost:5000/addOffer/${id}`;
+    const url = `https://infinite-stream-42915.herokuapp.com/addOffer/${id}`;
     fetch(url, {
       method: 'PUT',
       headers: {

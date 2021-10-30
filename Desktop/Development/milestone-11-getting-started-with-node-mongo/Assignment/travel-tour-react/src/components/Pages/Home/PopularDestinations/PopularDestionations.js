@@ -6,7 +6,7 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import SinglePopularDestination from '../SinglePopularDestination/SinglePopularDestination';
 
 const PopularDestionations = () => {
-    const location = <FontAwesomeIcon icon={faMapMarkerAlt} />;
+  const location = <FontAwesomeIcon icon={faMapMarkerAlt} style={{color: 'tomato'}}/>;
     const [destinations, setDestinations] = useState([]);
     useEffect(() => {
         // fetch("http://localhost:5000/destinations")
