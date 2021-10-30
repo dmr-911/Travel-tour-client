@@ -39,13 +39,13 @@ const AddOrder = () => {
             <div className="divider bg-info rounded mb-3 mx-auto"></div>
             <form onSubmit={handleSubmit(onSubmit)}>
               <input
-                defaultValue={user.displayName}
+                value={user.displayName || ''}
                 className="add-order-input"
                 {...register("name", { required: true })}
               />{" "}
               <br />
               <input
-                defaultValue={user.email}
+                value={user.email || ''}
                 className="add-order-input"
                 {...register("email", { required: true })}
               />{" "}

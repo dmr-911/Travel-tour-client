@@ -6,13 +6,50 @@ import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 
 const ManageOrders = () => {
     const [orders, setOrders] = useState([]);
-    console.log(orders);
     useEffect(() => {
         fetch("https://infinite-stream-42915.herokuapp.com/addOffer")
           .then((res) => res.json())
           .then((data) => setOrders(data));
     }, []);
-    const del = <FontAwesomeIcon icon={faTrashAlt} />;
+
+  const handleApprove = (id, info) => {
+    const { _id, key, image, name, description, price, time, rating } = info;
+    const update = {
+        _id: _id,
+        key: key,
+        image: image,
+        name: name,
+        description: description,
+        price: price,
+        time: time,
+        rating: rating,
+          status: "approved"
+}
+    // const url = `https://infinite-stream-42915.herokuapp.com/addOffer/${id}`;
+    const url = `http://localhost:5000/addOffer/${id}`;
+    fetch(url, {
+      method: 'PUT',
+      headers: {
+        'content-type' : 'application/json'
+      },
+      body: JSON.stringify(update)
+    })
+      .then(res => res.json())
+      .then(data => {
+        if (data.modifiedCount > 0) {
+        fetch("https://infinite-stream-42915.herokuapp.com/addOffer")
+          .then((res) => res.json())
+          .then((data) => setOrders(data));
+      }
+    })
+  }
+  
+  const del = <FontAwesomeIcon icon={faTrashAlt} />;
+  
+  const handleDelete = (id) => {
+    const rest = orders.filter(order => order._id !== id);
+    setOrders(rest);
+  }
 
     return (
       <Container fluid className="bg-dark pb-5">
@@ -40,10 +77,25 @@ const ManageOrders = () => {
                   <td>$ {order.info.price}</td>
                   <td>{order.info.status}</td>
                   <td>
-                    <Button variant="primary">Approve</Button>
+                    {order.info.status === "approved" ? (
+                      <Button
+                        variant="primary"
+                        onClick={() => handleApprove(order._id, order.info)}
+                        disabled
+                      >
+                        Approve
+                      </Button>
+                    ) : (
+                      <Button
+                        variant="primary"
+                        onClick={() => handleApprove(order._id, order.info)}
+                      >
+                        Approve
+                      </Button>
+                    )}
                   </td>
                   <td>
-                    <Button variant="danger">{del}</Button>
+                    <Button variant="danger" onClick={()=> handleDelete(order._id)}>{del}</Button>
                   </td>
                 </tr>
               ))}

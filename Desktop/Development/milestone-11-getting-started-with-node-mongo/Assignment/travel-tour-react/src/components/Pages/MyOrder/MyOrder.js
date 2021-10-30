@@ -19,8 +19,13 @@ const MyOrder = ({ order, handleDelete }) => {
                 Rating : <b>{info.rating}</b>
               </span>
             </Card.Text>
-            <Button variant="warning text-white" disabled>{info.status}</Button>{" "}
-            <Button variant="danger" onClick={()=> handleDelete(_id)}>Delete</Button>
+            {
+              info.status === 'approved' ?
+                <Button variant="success" disabled>{info.status}</Button>
+            :
+            <Button variant="warning" disabled>{info.status}</Button>
+            }
+            <Button className="ms-3" variant="danger" onClick={()=> handleDelete(_id)}>Delete</Button>
           </Card.Body>
         </Card>
       </Col>
