@@ -24,11 +24,17 @@ const SingleOffering = ({ offering }) => {
             <Row>
               <Col xs={7} className="d-flex flex-column align-items-start">
                 <Card.Title>{name}</Card.Title>
-                <Card.Text>{description.slice(0, 99)}</Card.Text>
               </Col>
               <Col xs={5}>
                 <h2 className="fw-bold">${price}</h2>
               </Col>
+              <div className="divider bg-info rounded my-2 mx-auto"></div>
+              <p>
+                {" "}
+                <small>
+                  <b>Details </b>: {description.slice(0, 99)}
+                </small>{" "}
+              </p>
               <div className="w-50 d-flex justify-content-around mx-auto my-2">
                 {clock} <small>Duration : </small>
                 <small>{time}</small>
