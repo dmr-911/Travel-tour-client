@@ -1,13 +1,35 @@
-import React from 'react';
-import { Col, Container, Form, Row, Button } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
+import { useForm } from "react-hook-form";
 import './Footer.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import useAuth from '../../../hooks/useAuth';
+import { useState } from 'react';
 
 const Footer = () => {
+  const [subscriber, setSubscriber] = useState({});
+  const { user } = useAuth();
     const phone = <FontAwesomeIcon icon={faPhone} style={{color: 'tomato'}}/>;
     const message = <FontAwesomeIcon icon={faEnvelope} style={{color: 'tomato'}}/>;
-    const location = <FontAwesomeIcon icon={faMapMarkerAlt} style={{color: 'tomato'}}/>;
+  const location = <FontAwesomeIcon icon={faMapMarkerAlt} style={{ color: 'tomato' }} />;
+  
+  const { register, handleSubmit } = useForm();
+  const onSubmit = (data) => {
+    console.log(data);
+    fetch("http://localhost:5000/subscriber", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json"
+      },
+      body: JSON.stringify(data)
+    })
+      .then(result => {
+        fetch(`http://localhost:5000/subscriber?search=${user.email}`)
+          .then(res => res.json())
+          .then(data => setSubscriber(data))
+      })
+  };
+  console.log(subscriber);
     return (
       <>
         <Container fluid className="bg-dark text-white py-5">
@@ -91,12 +113,22 @@ const Footer = () => {
                 ></div>
                 <b>SUBSCRIBE US</b>
               </div>
-              <form>
-                <Form.Control type="email" placeholder="Enter email" />
+              <form onSubmit={handleSubmit(onSubmit)}>
+                {subscriber ? (
+                  <input type="submit" value="Subscribed" disabled/>
+                ) : (
+                    <>
+                <input
+                  defaultValue={user.email}
+                  placeholder="Your email"
+                  {...register("email", { required: true })}
+                  style={{ width: "90%" }}
+                  className="mb-3 rounded"
+                />
                 <br />
-                <Button variant="primary" type="submit">
-                  Submit
-                </Button>
+                  <input type="submit" />
+                  </>
+                )}
               </form>
               <div className="divider bg-info rounded my-3 mx-auto"></div>
             </Col>
