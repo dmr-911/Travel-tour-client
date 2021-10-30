@@ -16,18 +16,17 @@ const Footer = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
     console.log(data);
-    fetch("http://localhost:5000/subscriber", {
+    fetch("https://infinite-stream-42915.herokuapp.com/subscriber", {
       method: "POST",
       headers: {
-        "content-type": "application/json"
+        "content-type": "application/json",
       },
-      body: JSON.stringify(data)
-    })
-      .then(result => {
-        fetch(`http://localhost:5000/subscriber?search=${user.email}`)
-          .then(res => res.json())
-          .then(data => setSubscriber(data))
-      })
+      body: JSON.stringify(data),
+    }).then((result) => {
+      fetch(`https://infinite-stream-42915.herokuapp.com/subscriber?search=${user.email}`)
+        .then((res) => res.json())
+        .then((data) => setSubscriber(data));
+    });
   };
   console.log(subscriber);
     return (
