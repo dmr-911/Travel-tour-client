@@ -34,7 +34,7 @@ const About = () => {
           ))}
         </Row>
       ) : (
-        <Spinner className="my-5" animation="border" variant="secondary" />
+        <Spinner className="my-5" animation="border" variant="light" />
       )}
     </Container>
   );

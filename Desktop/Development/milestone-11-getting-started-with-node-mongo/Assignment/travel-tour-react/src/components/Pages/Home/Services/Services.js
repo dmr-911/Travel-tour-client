@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row, Spinner } from 'react-bootstrap';
 import './Services.css';
 
 const Services = () => {
@@ -13,21 +13,29 @@ const Services = () => {
     return (
       <Container fluid bg="primary" className="pt-3 py-5 bg-dark">
         <Container>
-            <h2 className="text-white mb-2">Our Services</h2>
-            <div className="divider bg-info rounded mb-3 mx-auto"></div>
-          <Row className="g-4 text-white">
-            {services.map((service) => (
-              <Col key={service.key}>
-                <div className="d-flex justify-content-evenly">
-                  <img height="40px" src={service.image} alt="" />
-                  <div>
-                    <p><b>{service.name}</b></p>
-                    <small className="text-secondary">Morbi leo risus, porta ac</small>
+          <h2 className="text-white mb-2">Our Services</h2>
+          <div className="divider bg-info rounded mb-3 mx-auto"></div>
+          {services.length ? (
+            <Row className="g-4 text-white">
+              {services.map((service) => (
+                <Col key={service.key}>
+                  <div className="d-flex justify-content-evenly">
+                    <img height="40px" src={service.image} alt="" />
+                    <div>
+                      <p>
+                        <b>{service.name}</b>
+                      </p>
+                      <small className="text-secondary">
+                        Morbi leo risus, porta ac
+                      </small>
+                    </div>
                   </div>
-                </div>
-              </Col>
-            ))}
-          </Row>
+                </Col>
+              ))}
+            </Row>
+          ) : (
+            <Spinner className="my-5" animation="border" variant="light" />
+          )}
         </Container>
       </Container>
     );
