@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Row, Spinner } from 'react-bootstrap';
+import { Container, Row} from 'react-bootstrap';
 import useAuth from '../../../hooks/useAuth';
 import MyOrder from '../MyOrder/MyOrder';
 
@@ -44,9 +44,10 @@ const MyOrders = () => {
             <div className="divider bg-info rounded mb-3 mx-auto"></div>
           </>
         ) : (
-          <Spinner className="my-5" animation="border" variant="light" />
+          <h2 className="text-white">You haven't ordered yet!</h2>
         )}
       </Container>
+      <div className="divider bg-info rounded mb-3 mx-auto"></div>
     </>
   );
 };

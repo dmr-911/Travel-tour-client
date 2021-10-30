@@ -57,7 +57,7 @@ const ManageOrders = () => {
         <div className="divider bg-info rounded mb-3 mx-auto"></div>
         {orders.length ? (
           <Container className="bg-light rounded-2 p-3 mb-5">
-            <Table striped bordered hover size="sm">
+            <Table responsive>
               <thead>
                 <tr>
                   <th>Name</th>

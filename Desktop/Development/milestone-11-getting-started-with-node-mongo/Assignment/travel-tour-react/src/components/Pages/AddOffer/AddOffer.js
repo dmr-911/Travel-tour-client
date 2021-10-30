@@ -9,7 +9,6 @@ const AddOffer = () => {
     const handleShow = () => setShow(true);
     const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
-    console.log(data);
     fetch("https://infinite-stream-42915.herokuapp.com/offerings", {
       method: "POST",
       headers: {
