@@ -29,7 +29,8 @@ const NavbarCustom = () => {
                 <Nav.Link as={NavLink} to="/home">
                   Home
                 </Nav.Link>
-                <Nav.Link as={NavLink} to="/myOrders">
+                {
+                  user.email && <><Nav.Link as={NavLink} to="/myOrders">
                   My Orders
                 </Nav.Link>
                 <Nav.Link as={NavLink} to="/allOrders">
@@ -37,7 +38,8 @@ const NavbarCustom = () => {
                 </Nav.Link>
                 <Nav.Link as={NavLink} to="/addOffer">
                   Add Offer
-                </Nav.Link>
+                </Nav.Link></>
+                }
                 <Nav.Link as={NavLink} to="/about">
                   About
                 </Nav.Link>

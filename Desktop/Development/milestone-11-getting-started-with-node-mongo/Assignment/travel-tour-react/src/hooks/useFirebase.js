@@ -15,28 +15,24 @@ initializationAuthentication();
 const useFirebase = () => {
   const [user, setUser] = useState({});
   const [isLoading, setIsLoading] = useState(true);
-
-    const [error, setError] = useState('');
+  const [error, setError] = useState('');
+  const [message, setMessage] = useState('');
 
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
 
     const signUpWithEmail = (email, password) => {
-        createUserWithEmailAndPassword(auth, email, password)
-            .then((userCredential) => {
-                // const user = userCredential.user;
+       createUserWithEmailAndPassword(auth, email, password)
+            .then((result) => {
+              setError('User Created')
             })
-            .catch((error) => {
+          .catch((error) => {
+            setError('Account already exists, ');
             });
     };
 
     const signInWithEmail = (email, password) => {
-        signInWithEmailAndPassword(auth, email, password)
-          .then((userCredential) => {
-            // const user = userCredential.user;
-          })
-            .catch((error) => {
-          });
+      return signInWithEmailAndPassword(auth, email, password);
     }
 
     const googleSignIn = () => {
@@ -65,7 +61,7 @@ const useFirebase = () => {
       .finally(() => setIsLoading(false));
   };
 
-    return { user, signInWithEmail, signUpWithEmail, googleSignIn, logOut, isLoading, setIsLoading, error };
+    return { user, signInWithEmail, signUpWithEmail, googleSignIn, logOut, isLoading, setIsLoading, error, setError, message, setMessage };
 }
 
 export default useFirebase;
