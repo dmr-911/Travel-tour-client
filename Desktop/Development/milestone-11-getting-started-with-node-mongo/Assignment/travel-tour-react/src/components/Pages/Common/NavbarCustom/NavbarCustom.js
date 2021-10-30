@@ -29,23 +29,36 @@ const NavbarCustom = () => {
                 <Nav.Link as={NavLink} to="/home">
                   Home
                 </Nav.Link>
-                {
-                  user.email && <><Nav.Link as={NavLink} to="/myOrders">
-                  My Orders
-                </Nav.Link>
-                <Nav.Link as={NavLink} to="/allOrders">
-                  Manage Orders
-                </Nav.Link>
-                <Nav.Link as={NavLink} to="/addOffer">
-                  Add Offer
-                </Nav.Link></>
-                }
+                {user.email && (
+                  <>
+                    <Nav.Link as={NavLink} to="/myOrders">
+                      My Orders
+                    </Nav.Link>
+                    <Nav.Link as={NavLink} to="/allOrders">
+                      Manage Orders
+                    </Nav.Link>
+                    <Nav.Link as={NavLink} to="/addOffer">
+                      Add Offer
+                    </Nav.Link>
+                    {user.email === "dewan.mizanur911@gmail.com" && (
+                      <Nav.Link as={NavLink} to="/deleteOffer">
+                        Delete Offer
+                      </Nav.Link>
+                    )}
+                  </>
+                )}
                 <Nav.Link as={NavLink} to="/about">
                   About
                 </Nav.Link>
                 {user.email ? (
                   <div className="d-flex align-items-center mx-auto">
-                    <img src={user.reloadUserInfo.photoUrl} alt="" height="30px" width="30px" className="rounded-circle mx-2"/>
+                    <img
+                      src={user.reloadUserInfo.photoUrl}
+                      alt=""
+                      height="30px"
+                      width="30px"
+                      className="rounded-circle mx-2"
+                    />
                     <button
                       onClick={logOut}
                       className="btn-danger rounded me-2"

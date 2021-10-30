@@ -15,7 +15,6 @@ const Footer = () => {
   
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
-    console.log(data);
     fetch("https://infinite-stream-42915.herokuapp.com/subscriber", {
       method: "POST",
       headers: {
@@ -28,7 +27,6 @@ const Footer = () => {
         .then((data) => setSubscriber(data));
     });
   };
-  console.log(subscriber);
     return (
       <>
         <Container fluid className="bg-dark text-white py-5">

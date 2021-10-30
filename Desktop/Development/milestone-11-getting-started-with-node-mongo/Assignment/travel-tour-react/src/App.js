@@ -16,6 +16,7 @@ import PrivateRoute from './components/Pages/PrivateRoute/PrivateRoute';
 import Footer from './components/Pages/Footer/Footer';
 import SignIn from './components/Pages/SignIn/SignIn';
 import DestinationDetails from './components/Pages/Home/DestinationDetails/DestinationDetails';
+import DeleteOffer from './components/Pages/DeleteOffer/DeleteOffer';
 
 function App() {
   return (
@@ -47,7 +48,10 @@ function App() {
           </PrivateRoute>
           <PrivateRoute path="/addOrder/:id">
             <AddOrder></AddOrder>
-          </PrivateRoute>
+            </PrivateRoute>
+            <PrivateRoute path="/deleteOffer">
+              <DeleteOffer></DeleteOffer>
+            </PrivateRoute>
             <Route path="/signUp">
               <SignIn></SignIn>
             </Route>
