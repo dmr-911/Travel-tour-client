@@ -2,11 +2,12 @@ import React from 'react';
 import { useHistory } from "react-router-dom";
 import { Col, Container } from 'react-bootstrap';
 import './Banner.css';
+import { HashLink } from 'react-router-hash-link';
 
 const Banner = () => {
   const history = useHistory();
   const handleClick = () => {
-    history.push('/about');
+    history.push('/about#about');
   }
     return (
       <Container fluid className="banner">
@@ -23,7 +24,7 @@ const Banner = () => {
             <h3 className="fw-bold" style={{ color: "" }}>
               All kind of tours through the world
             </h3>
-            <button onClick={handleClick} className="btn-banner d-inline">Learn More</button>
+            <button as={HashLink} onClick={handleClick} className="btn-banner d-inline">Learn More</button>
           </Col>
         </Container>
       </Container>

@@ -1,20 +1,16 @@
 import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
-import { useHistory, useParams } from 'react-router';
+import { useParams } from 'react-router';
 import { HashLink } from 'react-router-hash-link';
 import useDetination from '../../../../hooks/useDestination';
 
 const DestinationDetails = () => {
     const { id } = useParams();
-    const history = useHistory();
     const { destinations } = useDetination();
     const item = destinations.find(destination => destination._id === id);
-    const handleBack = () => {
-        history.push('/home#destinations');
-    }
 
     return (
-      <div className="bg-dark login-page pt-5">
+      <div id="destinationDetails" className="bg-dark login-page pt-5">
         <img src="https://i.ibb.co/QDt4j81/logo.png" alt="" />
         <Col xs={12} md={5} className="mx-auto mt-5">
           <Card className="p-3">

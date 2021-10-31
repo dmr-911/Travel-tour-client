@@ -10,7 +10,7 @@ const SinglePopularDestination = ({ destination }) => {
     const location = <FontAwesomeIcon icon={faMapMarkerAlt} />;
   const { image, place } = destination;
   const handleDestination = () => {
-    history.push(`/destination/${destination._id}`);
+    history.push(`/destination/${destination._id}#destinationDetails`);
   }
     return (
       <Container fluid>
