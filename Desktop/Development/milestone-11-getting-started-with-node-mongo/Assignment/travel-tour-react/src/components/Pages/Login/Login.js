@@ -36,7 +36,10 @@ const Login = () => {
 
   return (
     <>
-      <div className="bg-dark login-page pt-5">
+      <div
+        className="login-page py-5"
+        style={{ backgroundColor: "#394650" }}
+      >
         <img src="https://i.ibb.co/QDt4j81/logo.png" alt="" />
         <Col xs={12} md={5} className="mx-auto mt-5 mb-5">
           <Card className="p-3">
@@ -60,8 +63,11 @@ const Login = () => {
                   ref={passRef}
                 />
               </Form.Group>
-              {message && <small className="text-danger">{message}</small> }
-              <p className="fw-bold">New to Tour Travel ? Please create an account <Link to="/signUp">SignUp</Link></p>
+              {message && <small className="text-danger">{message}</small>}
+              <p className="fw-bold">
+                New to Tour Travel ? Please create an account{" "}
+                <Link to="/signUp">SignUp</Link>
+              </p>
               <Button variant="success" type="submit">
                 Login
               </Button>
@@ -83,7 +89,7 @@ const Login = () => {
             </div>
           </Card>
         </Col>
-      <div className="divider bg-info rounded mx-auto"></div>
+        <div className="divider bg-info rounded mx-auto"></div>
       </div>
     </>
   );

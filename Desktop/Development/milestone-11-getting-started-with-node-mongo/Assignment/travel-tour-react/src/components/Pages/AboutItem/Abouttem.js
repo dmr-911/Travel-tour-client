@@ -14,6 +14,7 @@ const AboutItem = (props) => {
           <Col xs={7}>
             <Card.Body>
               <Card.Title>{name}</Card.Title>
+              <div className="divider bg-info rounded mb-3 mx-auto"></div>
               <Card.Text>{info}</Card.Text>
             </Card.Body>
           </Col>
