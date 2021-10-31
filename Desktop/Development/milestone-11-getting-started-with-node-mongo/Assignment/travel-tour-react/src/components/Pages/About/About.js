@@ -20,11 +20,11 @@ const About = () => {
       style={{ backgroundColor: "#394650" }}
       className="px-4 py-3 rounded"
     >
-      <h2 className="mt-3 mb-2 fw-bold">
+      <h2 className="mb-2 fw-bold">
         <span className="text-white">About</span>{" "}
         <span className="color-orrange">Us</span>
       </h2>
-        <div className="divider bg-info rounded mb-3 mx-auto"></div>
+      <div className="divider bg-info rounded mb-3 mx-auto"></div>
       <div className="line mx-auto mb-3"></div>
       <div className="break-line mx-auto mb-3"></div>
       {about.length ? (
@@ -36,6 +36,7 @@ const About = () => {
       ) : (
         <Spinner className="my-5" animation="border" variant="light" />
       )}
+      <div className="divider bg-info rounded my-3 mx-auto"></div>
     </Container>
   );
 };

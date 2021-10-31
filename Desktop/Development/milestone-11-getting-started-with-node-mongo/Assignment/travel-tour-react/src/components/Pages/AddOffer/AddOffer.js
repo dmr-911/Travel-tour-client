@@ -67,7 +67,9 @@ const AddOffer = () => {
                 {...register("rating", { required: true })}
               />{" "}
               <br />
-              <input type="submit" value="Proceed"/>
+              <Button variant="primary" type="submit">
+                Submit
+              </Button>
             </form>
           </Card>
         </Col>
@@ -81,11 +83,9 @@ const AddOffer = () => {
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
-            <Button variant="primary" onClick={handleClose}>
-              Save Changes
-            </Button>
           </Modal.Footer>
         </Modal>
+        <div className="divider bg-info rounded my-3 mx-auto"></div>
       </div>
     );
 };

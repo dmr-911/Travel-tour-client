@@ -12,17 +12,21 @@ const DeleteOffer = () => {
         }, []);
 
     const del = <FontAwesomeIcon icon={faTrashAlt} className="text-danger"/>;
-    const handleDelete = (id) => {
-        fetch(`https://infinite-stream-42915.herokuapp.com/offerings/${id}`, {
-          method: "DELETE",
-        })
-          .then((res) => res.json())
-          .then((data) => {
-            if (data.deletedCount > 0) {
-              const rest = orders.filter((order) => order._id !== id);
-              setOrders(rest);
-            }
-          });
+  const handleDelete = (id) => {
+    const proceed = window.confirm('Confirm delete?');
+    if (proceed) {
+      
+      fetch(`https://infinite-stream-42915.herokuapp.com/offerings/${id}`, {
+        method: "DELETE",
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.deletedCount > 0) {
+            const rest = orders.filter((order) => order._id !== id);
+            setOrders(rest);
+          }
+        });
+    }
         
         
       };
