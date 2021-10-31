@@ -1,3 +1,6 @@
 th,td{
     border: 1px solid;
 }
+.custom-table{
+    background-color: rgb(27, 27, 56);
+}

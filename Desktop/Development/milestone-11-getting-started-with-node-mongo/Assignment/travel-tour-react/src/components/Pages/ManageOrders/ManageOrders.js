@@ -62,12 +62,11 @@ const ManageOrders = () => {
         </h2>
         <div className="divider bg-info rounded mb-3 mx-auto"></div>
         {orders.length ? (
-          <Container className="bg-light rounded-2 p-3 mb-5">
-            <Table responsive>
+          <Container className="custom-table rounded-2 p-3 mb-5">
+            <Table responsive className="bg-light rounded-2">
               <thead>
                 <tr>
                   <th>Name</th>
-                  <th>Email</th>
                   <th>Preserved Offer</th>
                   <th>Cost</th>
                   <th>Status</th>
@@ -80,7 +79,6 @@ const ManageOrders = () => {
                   {orders.map((order) => (
                     <tr key={order._id}>
                       <td>{order.name}</td>
-                      <td>{order.email}</td>
                       <td>{order.info.name}</td>
                       <td>$ {order.info.price}</td>
                       <td>{order.info.status}</td>
