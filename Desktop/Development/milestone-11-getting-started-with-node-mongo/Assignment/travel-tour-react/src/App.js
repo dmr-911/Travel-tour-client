@@ -22,32 +22,32 @@ function App() {
   return (
     <div className="App bg-dark">
       <AuthProvider>
-      <Router>
-        <NavbarCustom></NavbarCustom>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route exact path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/login">
-            <Login></Login>
-          </Route>
-          <Route path="/about">
-            <About></About>
-          </Route>
-          <PrivateRoute path="/addOffer">
-            <AddOffer></AddOffer>
-          </PrivateRoute>
-          <PrivateRoute path="/allOrders">
-            <ManageOrders></ManageOrders>
-          </PrivateRoute>
-          <PrivateRoute path="/myOrders">
-            <MyOrders></MyOrders>
-          </PrivateRoute>
-          <PrivateRoute path="/addOrder/:id">
-            <AddOrder></AddOrder>
+        <Router>
+          <NavbarCustom></NavbarCustom>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route exact path="/home">
+              <Home></Home>
+            </Route>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <Route path="/about">
+              <About></About>
+            </Route>
+            <PrivateRoute path="/addOffer">
+              <AddOffer></AddOffer>
+            </PrivateRoute>
+            <PrivateRoute path="/allOrders">
+              <ManageOrders></ManageOrders>
+            </PrivateRoute>
+            <PrivateRoute path="/myOrders">
+              <MyOrders></MyOrders>
+            </PrivateRoute>
+            <PrivateRoute path="/addOrder/:id">
+              <AddOrder></AddOrder>
             </PrivateRoute>
             <PrivateRoute path="/deleteOffer">
               <DeleteOffer></DeleteOffer>
@@ -56,17 +56,17 @@ function App() {
               <SignIn></SignIn>
             </Route>
             <Route path="/destination/:id">
-            <DestinationDetails></DestinationDetails>    
+              <DestinationDetails></DestinationDetails>
             </Route>
-          <Route path="*">
-            <NotFound></NotFound>
-          </Route>
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
           </Switch>
           <Footer></Footer>
-      </Router>
+        </Router>
       </AuthProvider>
     </div>
-  );
+  )
 }
 
 export default App;
