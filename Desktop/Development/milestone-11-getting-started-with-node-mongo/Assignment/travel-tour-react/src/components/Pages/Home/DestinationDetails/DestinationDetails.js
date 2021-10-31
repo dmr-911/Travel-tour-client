@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
 import { useHistory, useParams } from 'react-router';
+import { HashLink } from 'react-router-hash-link';
 import useDetination from '../../../../hooks/useDestination';
 
 const DestinationDetails = () => {
@@ -28,7 +29,7 @@ const DestinationDetails = () => {
                   {item?.description}
                 </small>
               </Card.Text>
-              <Button variant="primary" onClick={handleBack}>Back to Home</Button>
+              <Button variant="primary" as={HashLink} to="/home#destinations">Back to Home</Button>
             </Card.Body>
           </Card>
         </Col>

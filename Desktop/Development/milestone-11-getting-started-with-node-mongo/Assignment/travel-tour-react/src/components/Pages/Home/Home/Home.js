@@ -7,11 +7,11 @@ import Support from '../Support/Support';
 
 const Home = () => {
     return (
-      <div>
+      <div id="#home">
         <Banner></Banner>
         <Services></Services>
         <PopularOfferings></PopularOfferings>
-        <PopularDestionations></PopularDestionations>
+        <PopularDestionations id="#home"></PopularDestionations>
         <Support></Support>
       </div>
     );

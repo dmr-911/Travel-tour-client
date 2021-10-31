@@ -27,7 +27,7 @@ const DeleteOffer = () => {
         
       };
     return (
-      <div>
+      <div id="deleteOffer">
         <Container fluid className="bg-dark pb-5">
           <h2 className="text-white my-2">
             <span className="text-white">Delete</span>{" "}
@@ -62,7 +62,7 @@ const DeleteOffer = () => {
                     </tr>
                   ))
                 ) : (
-                  <Spinner animation="border" variant="dark" />
+                  <Spinner className="mx-auto my-3" animation="border" variant="dark" />
                 )}
               </tbody>
             </Table>

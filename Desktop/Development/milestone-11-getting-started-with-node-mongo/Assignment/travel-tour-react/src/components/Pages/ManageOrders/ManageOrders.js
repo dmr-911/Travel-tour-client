@@ -47,12 +47,15 @@ const ManageOrders = () => {
   const del = <FontAwesomeIcon icon={faTrashAlt} />;
   
   const handleDelete = (id) => {
-    const rest = orders.filter(order => order._id !== id);
-    setOrders(rest);
+    const proceed = window.confirm('Do you want to delete?');
+    if (proceed) {
+          const rest = orders.filter(order => order._id !== id);
+          setOrders(rest);
+    }
   }
 
     return (
-      <Container fluid className="bg-dark pb-5">
+      <Container fluid id="allOrders" className="bg-dark pb-5">
         <h2 className="text-white my-2">
           <span className="text-white">Manage</span>{" "}
           <span className="color-orrange">Orders</span>

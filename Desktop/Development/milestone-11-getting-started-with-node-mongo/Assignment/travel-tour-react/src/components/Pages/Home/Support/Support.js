@@ -1,26 +1,37 @@
 import React, { useState } from 'react';
-import { Col, Container, Row, Button, Toast } from 'react-bootstrap';
+import { Col, Container, Row, Button, Modal } from 'react-bootstrap';
 import './Support.css';
 
+function MyVerticallyCenteredModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Customer Support
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <h4 className="text-danger">Currently Unavailabe!</h4>
+        <p>
+          We are currently working on our customer support session, hopefully we wil be online within some days. Thank you for co-operating with us.
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
 const Support = () => {
-  const [showA, setShowA] = useState(true);
-  const toggleShowA = () => setShowA(!showA);
+  const [modalShow, setModalShow] = useState(false);
     return (
       <Container fluid className="support-container p-5">
-        <Toast
-          show={showA}
-          onClose={toggleShowA}
-          style={{ position: "absolute", right: 0 }}
-        >
-          <Toast.Header>
-            <strong className="me-auto">Support</strong>
-            <small className="text-muted">just now</small>
-          </Toast.Header>
-          <Toast.Body>
-            Currently customer support is not availabe! We will notify you when
-            customer support is ready!
-          </Toast.Body>
-        </Toast>
         <Row xs={1} md={3} className="g-4 support-row w-100 p-5 text-white">
           <Col className="d-flex mt-5 pt-5">
             <div>
@@ -39,7 +50,7 @@ const Support = () => {
                 Don't worry we have a great support team ready to help you at
                 any time in a very professional way.
               </p>
-              <Button onClick={toggleShowA} className="custom-btn">
+              <Button onClick={() => setModalShow(true)} className="custom-btn">
                 Check It
               </Button>
             </div>
@@ -61,7 +72,7 @@ const Support = () => {
                 You can solve all your doubts thanks to the documentation and
                 the video tutorials present ready for help you.
               </p>
-              <Button onClick={toggleShowA} className="custom-btn">
+              <Button onClick={() => setModalShow(true)} className="custom-btn">
                 Check It
               </Button>
             </div>
@@ -83,12 +94,16 @@ const Support = () => {
                 We guarantee frequent updates to always add new features and new
                 most requested compatibility.
               </p>
-              <Button onClick={toggleShowA} className="custom-btn">
+              <Button onClick={() => setModalShow(true)} className="custom-btn">
                 Check It
               </Button>
             </div>
           </Col>
         </Row>
+        <MyVerticallyCenteredModal
+          show={modalShow}
+          onHide={() => setModalShow(false)}
+        />
       </Container>
     );
 };

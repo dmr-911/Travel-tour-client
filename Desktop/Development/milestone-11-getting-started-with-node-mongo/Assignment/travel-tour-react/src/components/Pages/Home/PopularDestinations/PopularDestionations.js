@@ -10,7 +10,7 @@ const PopularDestionations = () => {
   const location = <FontAwesomeIcon icon={faMapMarkerAlt} style={{color: 'tomato'}}/>;
   const { destinations } = useDetination();
     return (
-      <Container fluid className="px-0 bg-dark" id="destinations">
+      <Container fluid className="px-0 bg-dark">
         <Container className="py-5 text-white text-start">
           <h2>
             <span>{location}</span> <span className="text-white">Popular</span>{" "}

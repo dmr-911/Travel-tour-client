@@ -24,7 +24,7 @@ const AddOffer = () => {
   };
 
     return (
-      <div className="bg-dark login-page pt-5">
+      <div id="addOffer" className="bg-dark login-page pt-5">
         <img src="https://i.ibb.co/QDt4j81/logo.png" alt="" />
         <Col xs={12} md={5} className="mx-auto mt-5">
           <Card className="p-3">

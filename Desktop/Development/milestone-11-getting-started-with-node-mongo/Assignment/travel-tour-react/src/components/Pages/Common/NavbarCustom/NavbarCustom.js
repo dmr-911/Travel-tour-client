@@ -1,8 +1,9 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import useAuth from '../../../../hooks/useAuth';
 import './NavbarCustom.css';
+import { HashLink as Link } from "react-router-hash-link";
 
 const NavbarCustom = () => {
   const { user, logOut } = useAuth();
@@ -10,7 +11,7 @@ const NavbarCustom = () => {
       <div>
         <Navbar className="custom-nav-bg w-100" expand="lg" variant="dark">
           <Container fluid>
-            <Navbar.Brand as={Link} to="/home">
+            <Navbar.Brand as={Link} to="/home#home">
               <img
                 alt=""
                 src="https://i.ibb.co/QDt4j81/logo.png"
@@ -26,28 +27,28 @@ const NavbarCustom = () => {
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
-                <Nav.Link as={NavLink} to="/home">
+                <Nav.Link as={Link} to="/home#home">
                   Home
                 </Nav.Link>
                 {user.email && (
                   <>
-                    <Nav.Link as={NavLink} to="/myOrders">
+                    <Nav.Link as={Link} to="/myOrders#myOrders">
                       My Orders
                     </Nav.Link>
-                    <Nav.Link as={NavLink} to="/allOrders">
+                    <Nav.Link as={Link} to="/allOrders#allOrders">
                       Manage Orders
                     </Nav.Link>
-                    <Nav.Link as={NavLink} to="/addOffer">
+                    <Nav.Link as={Link} to="/addOffer#addOffer">
                       Add Offer
                     </Nav.Link>
                     {user.email === "dewan.mizanur911@gmail.com" && (
-                      <Nav.Link as={NavLink} to="/deleteOffer">
+                      <Nav.Link as={Link} to="/deleteOffer#deleteOffer">
                         Delete Offer
                       </Nav.Link>
                     )}
                   </>
                 )}
-                <Nav.Link as={NavLink} to="/about">
+                <Nav.Link as={Link} to="/about#about">
                   About
                 </Nav.Link>
                 {user.email ? (

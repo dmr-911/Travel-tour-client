@@ -11,7 +11,9 @@ const MyOrders = () => {
             .then(res => res.json())
             .then(data => setAddedOrders(data));
     }, []);
-        const handleDelete = (id) => {
+  const handleDelete = (id) => {
+    const proceed = window.confirm('Confirm delete your order?')
+    if (proceed) {
           const uri = `https://infinite-stream-42915.herokuapp.com/addOffer/${id}`;
           fetch(uri, {
             method: "DELETE",
@@ -21,11 +23,13 @@ const MyOrders = () => {
                   const restOrders = addedOrders.filter(order => order._id !== id)
                   setAddedOrders(restOrders);
             });
+    }
+
         };
 
   return (
     <>
-      <Container fluid className="bg-dark pb-5">
+      <Container fluid id="myOrders" className="bg-dark pb-5">
         <h2 className="text-white my-2">
           {" "}
           <span className="text-white">My</span>{" "}

@@ -4,10 +4,10 @@ import './Footer.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import useAuth from '../../../hooks/useAuth';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const Footer = () => {
-  const [subscriber, setSubscriber] = useState({});
+  // const [subscriber, setSubscriber] = useState({});
   const { user } = useAuth();
     const phone = <FontAwesomeIcon icon={faPhone} style={{color: 'tomato'}}/>;
     const message = <FontAwesomeIcon icon={faEnvelope} style={{color: 'tomato'}}/>;
@@ -24,7 +24,7 @@ const Footer = () => {
     }).then((result) => {
       fetch(`https://infinite-stream-42915.herokuapp.com/subscriber?search=${user.email}`)
         .then((res) => res.json())
-        .then((data) => setSubscriber(data));
+        // .then((data) => setSubscriber(data));
     });
   };
     return (
@@ -111,21 +111,21 @@ const Footer = () => {
                 <b>SUBSCRIBE US</b>
               </div>
               <form onSubmit={handleSubmit(onSubmit)}>
-                {subscriber ? (
+                {/* {subscriber ? (
                   <input type="submit" className="text-white" value="Subscribed" disabled/>
-                ) : (
+                ) : ( */}
                     <>
                 <input
-                  defaultValue={user.email}
+                  // defaultValue={user.email}
                   placeholder="Your email"
                   {...register("email", { required: true })}
                   style={{ width: "90%" }}
                   className="mb-3 rounded"
                 />
                 <br />
-                  <input type="submit" />
+                  <input type="submit" className="bg-primary text-white" value="Subscribe"/>
                   </>
-                )}
+                {/* )} */}
               </form>
               <div className="divider bg-info rounded my-3 mx-auto"></div>
             </Col>
