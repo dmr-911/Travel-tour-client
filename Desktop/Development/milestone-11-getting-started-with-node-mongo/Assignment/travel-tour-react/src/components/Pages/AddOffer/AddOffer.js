@@ -28,7 +28,7 @@ const AddOffer = () => {
         <img src="https://i.ibb.co/QDt4j81/logo.png" alt="" />
         <Col xs={12} md={5} className="mx-auto mt-5">
           <Card className="p-3">
-            <h3>Add New Offer Information</h3>
+            <h3>Add New Package Information</h3>
             <div className="divider bg-info rounded mb-3 mx-auto"></div>
             <form onSubmit={handleSubmit(onSubmit)}>
               <input

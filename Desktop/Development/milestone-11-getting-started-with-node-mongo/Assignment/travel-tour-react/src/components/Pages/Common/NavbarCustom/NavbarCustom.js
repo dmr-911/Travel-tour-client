@@ -39,11 +39,11 @@ const NavbarCustom = () => {
                       Manage Orders
                     </Nav.Link>
                     <Nav.Link as={Link} to="/addOffer#addOffer">
-                      Add Offer
+                      Add Package
                     </Nav.Link>
                     {user.email === "dewan.mizanur911@gmail.com" && (
                       <Nav.Link as={Link} to="/deleteOffer#deleteOffer">
-                        Delete Offer
+                        Delete Package
                       </Nav.Link>
                     )}
                   </>
