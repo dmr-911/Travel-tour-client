@@ -39,13 +39,13 @@ const AddOrder = () => {
             <div className="divider bg-info rounded mb-3 mx-auto"></div>
             <form onSubmit={handleSubmit(onSubmit)}>
               <input
-                value={user.displayName || ''}
+                value={user.displayName || ""}
                 className="add-order-input"
                 {...register("name", { required: true })}
               />{" "}
               <br />
               <input
-                value={user.email || ''}
+                value={user.email || ""}
                 className="add-order-input"
                 {...register("email", { required: true })}
               />{" "}
@@ -66,6 +66,7 @@ const AddOrder = () => {
             </form>
           </Card>
         </Col>
+        <div className="divider bg-info rounded mt-4 mx-auto"></div>
       </div>
     );
 };
