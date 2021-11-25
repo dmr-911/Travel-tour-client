@@ -10,7 +10,7 @@ const MyOrders = () => {
         fetch(`https://infinite-stream-42915.herokuapp.com/addOffer?search=${user.email}`)
             .then(res => res.json())
             .then(data => setAddedOrders(data));
-    }, []);
+    }, [user.email]);
   const handleDelete = (id) => {
     const proceed = window.confirm('Confirm delete your order?')
     if (proceed) {
